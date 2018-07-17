@@ -1,7 +1,49 @@
-\documentclass{article}
+
+% !TEX TS-program = pdflatex
+\documentclass[10pt, a5paper, twoside]{article} %dissert
 
 \usepackage[russian]{babel}
-\usepackage[utf8]{inputenc} 
+\usepackage{graphics}
+\usepackage{amsfonts}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{amsmath,amssymb,amscd}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{leqno,eucal}
+\usepackage{indentfirst}
+\usepackage{moreverb}
+\usepackage{color}
+\usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
+\usepackage{titlesec}
+
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
+
+\usepackage{enumitem}
+\setlist{nolistsep, itemsep=0cm, parsep=0pt}
+
+\usepackage{multirow}
+\usepackage{makecell}
+
+
+\newcommand{\mes}{\mathrm{mes}}
+\newcommand{\diam}{\mathrm{diam}}
+\newcommand{\const}{\mathrm{const}}
+\newcommand{\diverg}{\mathrm{div}}
+
+
+\usepackage{caption}
+\DeclareCaptionLabelSeparator{dot}{. }
+\captionsetup{justification=centering,labelsep=dot,font=small}
+%\renewcommand{\thepage}{\footnotesize\arabic{page}}
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
+\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\renewcommand{\thetable}{\thesection.\arabic{table}}
 
 \begin{document}
 \subsection*{Контрольные вопросы и задачи для самостоятельного решения}
@@ -21,14 +63,71 @@
 \item Что понимается под трудоемкостью симплекс метода? Что означает его экспоненциальная трудоемкость на классе всех задач линейного программирования?
 \item Существуют ли алгоритмы решения задач линейного программирования полиномиальной трудоемкости? Обладает ли класс всех задач линейного программирования полиномиальной сложностью?
 \end{enumerate}
+\vspace{6pt}
 
-\textit{Построить математические модели в задачах 1.1 — 1.4.}
-%1.1-1.3 добавить
-1.4. При производстве чугунного литья используется n различных исходных шихтовых материалов (чугун различных марок, стальной лом, феррофосфор и др.) Химический состав чугунного литья определяется содержанием в нем химических элементов (кремния, марганца, фосфора и др.). Готовый чугун должен иметь строго определенный химический состав, который определяется величинами $H_j$, представляющими собой доли (в процентах) $j$-го химического элемента в готовом продукте $(j=1,2,\ldots,m)$. При этом считаются известными величины $h_{ij}$ — содержание (в процентах) $j$-го химического элемента в $i$-ом исходном шихтовом материале, а также величины $c_i$ — цены единицы каждого шихтового материала $(i=1,2,\ldots,n)$. Определить состав шихты, обеспечивающий получение литья заданного качества при минимальной общей стоимости используемых шихтовых материалов.
+\textit{Построить математические модели в задачах} 1.1-1.4
+\vspace{6pt}
 
+\textbf{1.1} Для изготовления трех видов изделий A, B, C используется токарное, фрезерное, сварочное и шлифовальное оборудование. Затраты времени на обработку одного изделия для каждого из типов оборудования указаны в следующей ниже таблице. В ней же указан общий фонд рабочего времени каждого из типов оборудования, а также прибыль от реализации одного изделия каждого вида. Требуется определить, сколько изделий каждого вида следует изготовить предприятию, чтобы прибыль от их реализации была максимальной. 
+\begin{table}[h]
+\begin{tabular}{|l|p{0.12\linewidth}|p{0.12\linewidth}|p{0.12\linewidth}|c|}
+\hline
+\multirow{4}{*}{Тип оборудования} & \multicolumn{3}{c|}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Затраты времени (станко-ч) на \\ обработку одного изделия вида\end{tabular}}} & \multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Общий фонд\\  рабочего \\ времени\\ оборудования (ч)\end{tabular}} \\
+                                  & \multicolumn{3}{c|}{}                                                                                                                        &                                                                                                               \\
+                                  & \multicolumn{3}{c|}{}                                                                                                                        &                                                                                                               \\ \cline{2-4}
+                                  & A                                             & B                                             & C                                            &                                                                                                               \\ \hline
+Фрезерное                         & 2                                             & 4                                             & 5                                            & 120                                                                                                           \\ \hline
+Токарное                          & 1                                             & 8                                             & 6                                            & 280                                                                                                           \\ \hline
+Сварочное                         & 7                                             & 4                                             & 5                                            & 240                                                                                                           \\ \hline
+Шлифовальное                      & 4                                             & 6                                             & 7                                            & 360                                                                                                           \\ \hline
+Прибыль (руб.)                    & 10                                            & 14                                            & 12                                           &                                                                                                               \\ \hline
+\end{tabular}
+\end{table}
+\vspace{6pt}
 
-\textit{В задачах 1.5 — 1.8 привести математическую модель линейного программирования к каноническому виду.}
-\[z=-2x_1 x_2 + x_3 \rightarrow min,\]
+\textbf{1.2} Кондитерская фабрика для производства трех видов карамели $A$, $B$ и $C$ использует три вида основного сырья: сахарный песок, патоку и фруктовое пюре. Нормы расхода сырья каждого вида на производство 1 т. карамели данного вида приведены в таблице. В ней же указано общее количество сырья каждого вида, которое может быть использовано фабрикой, а также приведена прибыль от реализации 1 т. карамели каждого вида.
+
+\begin{table}[h]
+\begin{tabular}{|l|p{0.16\linewidth}|p{0.16\linewidth}|p{0.16\linewidth}|c|}
+\hline
+\multirow{4}{*}{Вид сырья} & \multicolumn{3}{c|}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Нормы расхода сырья (т) на 1 т \\карамели\end{tabular}}} & \multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Общее \\количество \\сырья (т)\end{tabular}} \\
+                                  & \multicolumn{3}{c|}{}                                                                                                                        &                                                                                                               \\
+                                  & \multicolumn{3}{c|}{}                                                                                                                        &                                                                                                               \\ \cline{2-4}
+                                  & A                                             & B                                             & C                                            &                                                                                                               \\ \hline
+Сахарный песок                         & 2                                             & 4                                             & 5                                            & 120                                                                                                           \\ \hline
+Патока                          & 1                                             & 8                                             & 6                                            & 280                                                                                                           \\ \hline
+Фруктовое пюре					  & 7                                             & 4                                             & 5                                            & 240                                                                                                           \\ \hline
+\begin{tabular}[c]{@{}l@{}}Прибыль от \\ реализации 1т \\ карамели (руб.)\end{tabular} & 108 & 112 & 126 & \\\hline
+\end{tabular}
+\end{table}
+
+Найти оптимальный план производства карамели, обеспечивающий максимальную прибыль от ее реализации.
+\vspace{6pt}
+
+\textbf{1.3} При откорме животных каждое животное ежедневно должно получать не менее 60 ед. питательного вещества A, не менее 50 ед. вещества B и не менее 12 ед. вещества C. Указанные питательные вещества содержаться  в трех видах корма. Содержание единиц питательных веществ в 1 кг каждого из видов корма приведено в следующей таблице:
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{|c|p{0.2\linewidth}|p{0.2\linewidth}|p{0.2\linewidth}|}
+\hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Питательные\\ вещества\end{tabular}} & \multicolumn{3}{c|}{\begin{tabular}[c]{@{}c@{}}Количество единиц питательных веществ в 1 кг корма\\ вида\end{tabular}} \\ \cline{2-4} 
+                                                                                & I                                      & II                                      & III                                     \\ \hline
+A                                                                               & 1                                      & 3                                       & 4                                       \\ \hline
+B                                                                               & 2                                      & 4                                       & 2                                       \\ \hline
+C                                                                               & 1                                      & 4                                       & 3                                       \\ \hline
+\end{tabular}
+\end{table}
+Составить дневной рацион, обеспечивающий получение необходимого количества питательных веществ при минимальных денежных затратах, если цена 1 кг корма I-го вида составляет 9 коп., корма II-го вида — 12 коп., а корма III-го вида — 10 коп.
+\vspace{6pt}
+
+\textbf{1.4} При производстве чугунного литья используется n различных исходных шихтовых материалов (чугун различных марок, стальной лом, феррофосфор и др.) Химический состав чугунного литья определяется содержанием в нем химических элементов (кремния, марганца, фосфора и др.). Готовый чугун должен иметь строго определенный химический состав, который определяется величинами $H_j$, представляющими собой доли (в процентах) $j$-го химического элемента в готовом продукте $(j=1,2,\ldots,m)$. При этом считаются известными величины $h_{ij}$ — содержание (в процентах) $j$-го химического элемента в $i$-ом исходном шихтовом материале, а также величины $c_i$ — цены единицы каждого шихтового материала $(i=1,2,\ldots,n)$. Определить состав шихты, обеспечивающий получение литья заданного качества при минимальной общей стоимости используемых шихтовых материалов.
+\vspace{6pt}
+
+\textit{В задачах} 1.5 — 1.8 \textit{привести математическую модель линейного программирования к каноническому виду.}
+
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.5}
+\[z=-2x_1 - x_2 + x_3 \rightarrow min,\]
 $$
 \left\{
 \begin{array}{ccccc}
@@ -39,5 +138,212 @@ $$
 \right.
 $$
 \[x_1, x_2, x_3\geq 0.\]
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+  \textbf{1.6}
+  \[z=-2x_1 + x_2 + 5x_3 \rightarrow min,\]
+$$
+\left\{
+\begin{array}{ccccc}
+4x_1 &+2x_2 &+5x_3 &\leq &12, \\
+6x_1 &-3x_2 &+4x_3 &= &15, \\
+3x_1 &+3x_2 &-2x_3 &\leq &16,
+\end{array}
+\right.
+$$
+\[x_1, x_2, x_3\geq 0.\]
+\end{minipage}
 
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.7}
+\[z=2x_1 - 5x_2 + 3x_3 \rightarrow min,\]
+$$
+\left\{
+\begin{array}{ccccc}
+-x_1 &+x_2 &+x_3 &\geq &12, \\
+x_1 &+5x_2 &-6x_3 &\leq &16, \\
+3x_1 &+x_2 &+x_3 &\geq &18,
+\end{array}
+\right.
+$$
+\[x_1, x_2\geq 0.\]
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+  \textbf{1.8}
+  \[z=-3x_1 + x_2 - 5x_3 \rightarrow min,\]
+$$
+\left\{
+\begin{array}{ccccc}
+2x_1 &+5x_2 &-7x_3 &\leq &4, \\
+-4x_1 &-3x_2 &+8x_3 &\geq &15, \\
+3x_1 &-2x_2 &+10x_3 &\leq &11,
+\end{array}
+\right.
+$$
+\[x_2, x_3\geq 0.\]
+\end{minipage}
+
+\textit{Используя геометрическое истолкование задач линейного программирования, найти решения задач} 1.9 — 1.13.
+
+\begin{minipage}{0.45\textwidth}
+ \textbf{1.9}
+\[z=x_1 + x_2 \rightarrow max;\]
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &+ &2x_2 &\leq &14, \\
+-5x_1 &+ &3x_2 &\leq &15, \\
+4x_1 &+ &6x_2 &\geq &24,
+\end{array}
+\right.
+$$
+\[x_1, x_2\geq 0.\]
+\textbf{Ответ: } точка максимума (14; 0);
+\[z_{max} = 14.\]
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+ \textbf{1.10}
+\[z=x_1 + 2x_2 \rightarrow max;\]
+$$
+\left\{
+\begin{array}{ccccc}
+4x_1 &- &2x_2 &\leq &12, \\
+-x_1 &+ &3x_2 &\leq &6, \\
+2x_1 &+ &4x_2 &\geq &16,
+\end{array}
+\right.
+$$
+\[x_2, x_3\geq 0.\]
+\textbf{Ответ: } точка максимума (4,8; 3,6);
+\[z_{max} = 12.\]
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+ \textbf{1.11}
+\[z=-2x_1 + x_2 \rightarrow min;\]
+$$
+\left\{
+\begin{array}{ccccc}
+3x_1 &- &2x_2 &\leq &12, \\
+-x_1 &+ &2x_2 &\leq &8, \\
+2x_1 &+ &3x_2 &\geq &6,
+\end{array}
+\right.
+$$
+\[x_1, x_2\geq 0.\]
+\textbf{Ответ: } точка минимума (10;9);
+\[z_{min} = -11.\]
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+ \textbf{1.12}
+\[z=-x_1 + 4x_2 +2x_4-x_5 \rightarrow max;\]
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &- &5x_2+x_3 &= &5, \\
+-x_1 &+ &x_2+x_4 &= &4, \\
+x_1 &+ &x_2+x_5 &= &8,
+\end{array}
+\right.
+$$
+\[x_1, x_2, \ldots, x_5 \geq 0.\]
+\textbf{Ответ: } точка максимума (2; 6; 33; 0; 0;);
+\[z_{max} = 22.\]
+\end{minipage}
+
+\begin{minipage}{0.45\textwidth}
+ \textbf{1.13}
+\[z=-5x_1 + x_2 - x_3\rightarrow max;\]
+$$
+\left\{
+\begin{array}{ccccc}
+3x_1 &- &x_2-x_3 &= &4, \\
+x_1 &- &x_2+x_3-x_4 &= &1, \\
+2x_1 &+ &x_2+2x_3+x_5 &= &7,
+\end{array}
+\right.
+$$
+\[x_1, x_2, \ldots, x_5 \geq 0.\]
+\textbf{Ответ: } точка максимума ($\frac{4}{3}$; 0; 0; $\frac{1}{3}$; $\frac{13}{3}$);
+\[z_{max} = -\frac{20}{3}.\]
+\end{minipage}
+\vspace{6pt}
+
+\textit{В задачах} 1.14-1.17 \textit{привести систему уравнений к какому-нибудь базисному виду.}
+
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.14}
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &-2x_2 &+3x_3 &+4x_4 &=1, \\
+4x_1 &-7x_2 &+2x_3 &+x_4 &=3, \\
+3x_1 &-5x_2 &-x_3 &-3x_4 &=2,
+\end{array}
+\right.
+$$
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.15}
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &4x_2 &-2x_3 &+3x_5 &=2, \\
+2x_1 &9x_2 &-x_3 &-4x_4 &=5, \\
+x_1 &5x_2 &+x_3 &-4x_4+3x_5 &=3,
+\end{array}
+\right.
+$$
+\end{minipage}
+
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.16}
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &+3x_2 &-x_3 &-2x_4 &=1, \\
+2x_1 &+7x_2 &-4x_3 &-3x_4 &=3, \\
+x_1 &+4x_2 &-3x_3 &-x_4 &=2,
+\end{array}
+\right.
+$$
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\textwidth}
+ \textbf{1.17}
+$$
+\left\{
+\begin{array}{ccccc}
+x_1 &-5x_2 &+3x_3 &+4x_4 &=4, \\
+2x_1 &-9x_2 &+2x_3 &+x_5 &=7, \\
+x_1 &-4x_2 &-x_3-4x_4 &+x_5 &=3,
+\end{array}
+\right.
+$$
+\end{minipage}
+\vspace{6pt}
+
+\textit{C помощью симплекс-метода и его модификаций найти решение задач} 1.18-1.27.
+\vspace{6pt}
+
+\begin{minipage}{0.4\textwidth}
+\textbf{1.18}
+\[z=3x_1 + 2x_3 - 6x_6\rightarrow max;\]
+$$
+\left\{
+\begin{array}{ccccc}
+2x_1  &+x_2  &-2x_4  &+x_5  &=16, \\
+-3x_1 &+2x_2 &+x_3   &-3x_4 &=18, \\
+x_1   &+3x_2 &+4x_4  &+x_6  &=24,
+\end{array}
+\right.
+$$
+\[x_i \geq 0 (i = \overline{1,6}).\]
+\textbf{Ответ: } точка максимума ($\frac{6}{11}$;$\frac{90}{11}$ 0; 0; $\frac{254}{11}$;0); $z_{max} = \frac{282}{11}.$
+\end{minipage}
 \end{document}
