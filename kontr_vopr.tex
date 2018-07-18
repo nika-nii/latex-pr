@@ -331,10 +331,11 @@ $$
 \textit{C помощью симплекс-метода и его модификаций найти решение задач} 1.18-1.27.
 \vspace{6pt}
 
-\begin{minipage}{0.4\textwidth}
 \textbf{1.18}
-\[z=3x_1 + 2x_3 - 6x_6\rightarrow max;\]
-$$
+
+$z=3x_1 + 2x_3 - 6x_6\rightarrow max;$
+
+$
 \left\{
 \begin{array}{ccccc}
 2x_1  &+x_2  &-2x_4  &+x_5  &=16, \\
@@ -342,8 +343,170 @@ $$
 x_1   &+3x_2 &+4x_4  &+x_6  &=24,
 \end{array}
 \right.
-$$
-\[x_i \geq 0 (i = \overline{1,6}).\]
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (18; 0; 6; 66; 0; 0); $z_{max} = 66.$
+
+\textbf{1.19}
+
+$z=2x_1 + 3x_2 - x_4\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccc}
+2x_1  &-2x_2 &-2x_4  &+x_5  &=16, \\
+3x_1 &+2x_2  &+x_3  &-3x_4  &=18, \\
+-x_1   &+3x_2 &+4x_4   &+x_6   &=24,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
 \textbf{Ответ: } точка максимума ($\frac{6}{11}$;$\frac{90}{11}$ 0; 0; $\frac{254}{11}$;0); $z_{max} = \frac{282}{11}.$
-\end{minipage}
+
+\textbf{1.20}
+
+$z=8x_2 + 7x_4 + x_6\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccc}
+x_1  &-2x_2  &-3x_4  &-2x_6  &=12, \\
+4x_2 &+x_3  &-4x_4  &-3x_6  &=12, \\
+5x_2   &+5x_4 &+x_5   &+x_6   &=25,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (23; 4; 0; 1; 0; 0); $z_{max} = 39.$
+
+\textbf{1.21}
+
+$z=x_1 + 3x_2 - 5x_4\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccc}
+2x_1   &+4x_2  &+x_3   &+2x_4  &=28, \\
+-3x_1  &+5x_2  &-3x_4  &+x_5   &=30, \\
+4x_1   &-2x_2  &+8x_4  &+x_6   &=32,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума ($\frac{10}{11}$;$\frac{72}{11}$ 0; 0; 0; $\frac{456}{11}$); $z_{max} = \frac{226}{11}.$
+
+\textbf{1.22}
+
+$z=3x_1 + 2x_2 - 5x_6\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccc}
+2x_1  &+x_2  &-3x_5  &+5x_6  &=34, \\
+4x_1  &+x_3  &+2x_5  &-4x_6  &=28, \\
+-3x_1 &+x_4  &-3x_5  &+6x_6  &=24,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (0; 76; 0; 66; 14; 0); $z_{max} = 28.$
+
+\textbf{1.23}
+
+$z=x_1 + 2x_2 - x_3\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccc}
+-x_1  &+4x_2 &-2x_3  &\leq &6, \\
+x_1   &+x_2  &+2x_3  &\geq &6, \\
+2x_1  &-x_2  &+2x_3  &=    &4,
+\end{array}
+\right.
+$
+
+$x_1, z_2, x_3 \geq 0.$
+
+\textbf{Ответ: } точка максимума (2,8; 2,4; 0,4); $z_{max} = 7,2.$
+
+\textbf{1.24}
+
+$z=8x_1 - 3x_2 + x_3 + 6x_4 - 5x_5\rightarrow max;$
+
+$
+\left\{
+\begin{array}{cccccc}
+2x_1  &+4x_2  &+x_3   &+x_4   &-2x_5  &=28, \\
+x_1   &-2x_2  &       &+x_4   &+x_5   &=31, \\
+-x_1  &+3x_2  &+5x_3  &+4x_4  &-8x_5  &=118,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,5}).$
+
+\textbf{Ответ: } точка максимума (0; 0; 6; 28; 3); $z_{max} = 159.$
+
+\textbf{1.25}
+
+$z=2x_1 - 3x_2 + 4x_3 + 5x_4 - x_5 + 8x_6\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccccc}
+x_1   &+5x_2  &-3x_3   &-4x_4   &+2x_5   &+x_6   &=120, \\
+2x_1  &+9x_2  &-5x_3   &-7x_4   &+4x_5   &+2x_6  &=320,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (0; 0; 0; 80; 0; 440); $z_{max} = 3920.$
+
+\textbf{1.26}
+
+$z=-3x_1 + 5x_2 - 3x_3 + x_4 + x_5 + 8x_6\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccccc}
+x_1    &-3x_2   &+4x_3    &+5x_4    &-6x_5   &+x_6   &=60, \\
+7x_1   &-17x_2  &+26x_3   &+31x_4   &-35x_5  &+6x_6  &=420,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (0; 0; 0; 0; 60; 420); $z_{max} = 3420.$
+
+\textbf{1.27}
+
+$z=8x_1 - 3x_2 + x_3 + 6x_4 - 5x_5\rightarrow max;$
+
+$
+\left\{
+\begin{array}{ccccccc}
+2x_1  &-x_2   &       &+3x_4   &+x_5   &-x_6   &=36, \\
+-x_1  &+2x_2  &+x_3   &+2x_4   &       &+2x_6  &=20, \\
+3x_1  &-x_2   &+2x_3  &-x_4    &+3x_5  &+x_6   &=30,
+\end{array}
+\right.
+$
+
+$x_i \geq 0 (i = \overline{1,6}).$
+
+\textbf{Ответ: } точка максимума (6; 0; 10; 8; 0; 0); $z_{max} = 190.$
+
 \end{document}
