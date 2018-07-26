@@ -1,0 +1,45 @@
+\section{ЭЛЕМЕНТЫ ТЕОРИИ ДВОЙСТВЕННОСТИ}
+
+
+Для любой задачи линейного программирования можно сформулировать некоторую задачу, называемую двойственной. Решение каждой из этой пары задач часто  автоматически приводит к решению другой задачи, то есть количество решенных задач увеличивается вдвое. В некоторых случаях одна из  двойственных  задач проще и ее решать удобнее. Но важнее всего то, что во многих приложениях линейного программирования требуется решать обе двойственные задачи.  Поэтому изучение взаимосвязи этих задач очень полезно. Мы кратко опишем эту взаимосвязь, не останавливаясь подробно на обоснованиях.
+
+\subsection{Симметрично-двойственные задачи}
+Рассмотрим задачу линейного программирования в стандартной  форме. 
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[width=7cm]{pictures/ch_3_flowchart}
+		\caption{Блок-схема алгоритма решения $m$-мерной задачи}
+ 	 \label{picture_3_1}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{minipage}[h]{0.48\linewidth}
+\center{\includegraphics[width=1.05\linewidth]{pictures/chart_stabilization} \\ {\small а) неподвижная среда} }
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.48\linewidth}
+\center{\includegraphics[width=1\linewidth]{pictures/introduction_chart_stabilization} \\ {\small б) движущаяся среда} }
+\end{minipage}
+\caption{Зависимость значения $(J_n)_{\min}$ от $n$}
+\label{picture_3_2}
+\end{figure}
+
+\begin{table}[h!]
+\caption{Обозначения функций}
+\label{table_3_1}
+\begin{tabular}[t]{|p{4em}|p{6em}|p{15em}|p{4em}|}
+\hline
+ {Обозна-чение} & Область определения & Название параметра &	Размер-ность \\ \hline
+\multicolumn{1}{|c|} { $m$ } & { $D$ } & Минимальный профиль
+температуры &	Кельвин \\ \hline
+\multicolumn{1}{|c|} { $M$ } & { $D$ } & Максимальный профиль
+температуры &	Кельвин \\ \hline
+
+\end{tabular}
+\end{table} 
+
+
