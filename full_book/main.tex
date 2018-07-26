@@ -86,6 +86,11 @@
 \def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Замечание \arabic{section}.\arabic{comment_counter}. }}
 \numberwithin{comment_counter}{section}
 
+%еще счетчик
+\newcounter{primer_counter}
+\def\primer{\addtocounter{primer_counter}{1}\par{\bf Пример \arabic{section}.\arabic{primer_counter}. }}
+\numberwithin{primer_counter}{section}
+
 \setlength{\textfloatsep}{0mm}
 
 \begin{document}
@@ -126,6 +131,16 @@
 %\include{chapter_3}
 
 % ...
+
+%\include{chapter_4}
+
+\include{chapter_5}
+
+%\include{chapter_6}
+
+%\include{chapter_7}
+
+%\include{chapter_8}
 
 %\thispagestyle{empty}
 
