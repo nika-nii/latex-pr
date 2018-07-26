@@ -64,7 +64,8 @@ $$
 \end{tabular}
 $$
 \parНаходим первое опорное решение методом наименьшей стоимости. Запишем и решим систему уравнений для потенциалов.
-%TODO: не компилируется$$
+%TODO: не компилируется
+%$$
 %\begin{cases}
 %   u_1 + v_2 = -7,\\
 %   u_1 + v_3 = -1,\\
@@ -117,23 +118,24 @@ $$
 %}
 %$$
 Следовательно, $\gamma_{13}=1$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Составим цикл пересчета для клетки $x_{23}$ и произведем сдвиг по этому циклу. Получим таблицу
-$$
-\begin{tabular}{|c|*{4}{c|}}
-	\cline{3-5}
-	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
-	\cline{2-5}
-	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
-	\cline{3-5}
-	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
-	\hline
-	$\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 0 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
-	\hline
-	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & \; \\ \end{tabular}}\\
-	\hline
-	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
-	\hline
-\end{tabular}
-$$
+%TODO: не компилируется
+%$$
+%\begin{tabular}{|c|*{4}{c|}}
+%	\cline{3-5}
+%	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
+%	\cline{2-5}
+%	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
+%	\cline{3-5}
+%	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
+%	\hline
+%	$\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 0 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
+%	\hline
+%	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & \; \\ \end{tabular}}\\
+%	\hline
+%	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
+%	\hline
+%\end{tabular}
+%$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -149,23 +151,25 @@ $$
 	\end{cases}
 $$
 $\gamma_{13}=3$, $\gamma_{21}=-7$, $\gamma_{23}=-8$, $\gamma_{32}=3$. Производим сдвиг по циклу пересчета для клетки $x_{21}$.
-$$
-\begin{tabular}{|c|*{4}{c|}}
-	\cline{3-5}
-	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
-	\cline{2-5}
-	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
-	\cline{3-5}
-	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
-	\hline
-	\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 0 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
-	\hline
-	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & \; \\ \end{tabular}}\\
-	\hline
-	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
-	\hline
-\end{tabular}
-$$
+%TODO: не компилируется
+
+%$$
+%\begin{tabular}{|c|*{4}{c|}}
+%	\cline{3-5}
+%	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
+%	\cline{2-5}
+%	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
+%	\cline{3-5}
+%	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
+%	\hline
+%	\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 0 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
+%	\hline
+%	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & \; \\ \end{tabular}}\\
+%	\hline
+%	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
+%	\hline
+%\end{tabular}
+%$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -181,23 +185,24 @@ $$
 	\end{cases}
 $$
 $\gamma_{13}=3$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Преобразуем таблицу с помощью цикла пересчета для клетки $x_{23}$.
-$$
-\begin{tabular}{|c|*{4}{c|}}
-	\cline{3-5}
-	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
-	\cline{2-5}
-	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
-	\cline{3-5}
-	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
-	\hline
-	\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
-	\hline
-	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & 1 \\ \end{tabular}}\\
-	\hline
-	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}}\\
-	\hline
-\end{tabular}
-$$
+%TODO: не компилируется
+%$$
+%\begin{tabular}{|c|*{4}{c|}}
+%	\cline{3-5}
+%	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
+%	\cline{2-5}
+%	\multicolumn{1}{c|}{} & \raisebox{-1.5ex}[0cm][0cm]{\centering Запасы} & \multicolumn{3}{c|}{Потребности} \\
+%	\cline{3-5}
+%	\multicolumn{1}{c|}{} & & 1 & 1 & 1\\
+%	\hline
+%	\parbox{1.5cm}{\centering u_1$} & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-4} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-7} & \\  & 1 \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}}\\
+%	\hline
+%	$u_2$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-5} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-1} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{-6} & \\  & 1 \\ \end{tabular}}\\
+%	\hline
+%	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}}\\
+%	\hline
+%\end{tabular}
+%$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -242,7 +247,7 @@ $$z = \sum_{j=1}^n c_jx_j.$$
 \parОсновные понятия обычного линейного программирования переносятся и на дискретный случай. Вектор $X = \{x_1,x_2,...,x_n\}$, удовлетворяющий системе ограничений задачи, называется допустимым решением (планом) задачи. Допустимое решение, доставляющее максимум целевой функции, называют оптимальным решением (планом). Процесс решения задачи дискретного программирования состоит в нахождении оптимального плана.
 \parКазалось бы, естественный путь решения целочисленной задачи состоит в решении соответствующей обычной линейной задачи с последующим округлением компонент оптимального плана $X = \{x_1,x_2,...,x_n\}$ до ближайших целых чисел. На самом деле такой путь в большинстве случаев не только уводит от оптимума, но даже приводит иногда к недопустимому решению задачи.
 \primer{
-	Рассмотрим задачу целочисленного программирования с двумя переменными}\begin{equation*}
+	Рассмотрим задачу целочисленного программирования с двумя переменными\begin{equation*}
 	\begin{split}
 		&z = x_1 + x_2 \rightarrow \textrm{max},\\
 		&\begin{cases}
@@ -280,14 +285,16 @@ $$z = \sum_{j=1}^n c_jx_j.$$
 \end{split}
 \tag{$P_2$}
 \end{equation}
-\textit{в которой предполагается, что величины $b_i$ и $a_{ij}$ также являются целочисленными}. Задачу $(P2)$ легко свести к задаче вида $(P1)$ с помощью уравнивания неравенств. Задачу вида $(P1)$ \left(или \left(P2\right)\right) будем называть канонически целочисленной.
-\parСуществует несколько методов построения сечений для целочисленных задач. В этом параграфе мы рассмотрим наиболее простой первый алгоритм Р. Гомори, который применяется к задаче вида $(P1)$, т.е. к канонически целочисленной задаче.
+%TODO
+%\textit{в которой предполагается, что величины $b_i$ и $a_{ij}$ также являются целочисленными}. Задачу $(P2)$ легко свести к задаче вида $(P1)$ с помощью уравнивания неравенств. Задачу вида $(P1)$ \left(или \left(P2\right)\right) будем называть канонически целочисленной.
+%\parСуществует несколько методов построения сечений для целочисленных задач. В этом параграфе мы рассмотрим наиболее простой первый алгоритм Р. Гомори, который применяется к задаче вида $(P1)$, т.е. к канонически целочисленной задаче.
 \parПусть задача З$_{l-1}$ уже решена симплекс методом и ее решение $\overline{X}_{l-1}$ не удовлетворяет условию целочисленности. Обозначим через ${a}$ дробную часть числа $a$, ${a}=a-[a]$, где $[a]$-целая часть числа $a$. Пусть $k$ — индекс свободных переменных в последней симплексной таблице. Обозначим через $s$ — номер строки в этой таблице с \textit{наибольшим} значением $\{b_s^*\}$ для свободного члена $b_s^*$, отвечающего базисной переменной. Тогда сечение Гомори запишется в виде
 \begin{equation}
 	\{b_s^*\} - \sum_k\{a_{sk}^*\}x_k \leq 0.
 \tag{$S_1$}
 \end{equation}
-\parНе удовлетворяющее условию целочисленности  решение $\overline{X}_{l-1}$ задачи З$_{l-1}$ условию $(S1)$ не удовлетворяет. Действительно, в оптимальном опорном решении свободные переменные $x_k=0$, а поскольку $\{b_s^*\}$>0, то $(S1)$ на $\overline{X}_{l-1}$ не удовлетворяется. Следовательно, ограничение $(S1)$ удовлетворяет условию $b$), упомянутому выше. Покажем, что условие $(S1)$ удовлетворяет и условию $a$). Сначала мы установим, что оно удовлетворяется для любого целочисленного решения системы ограничений задачи $(P1)$. Рассмотрим $i$-ое ограничение этой задачи $\sum_{j=1}^n a_{ij}x_j = b_i$, и возьмем дробную часть от обеих частей равенства. Поскольку дробная часть суммы не превосходит суммы дробных частей слагаемых $(\{a+b\} \geq \{a\}+\{b\})$, то справедливо неравенство $\sum_{j=1}^n \{a_{ij}\}x_j \req \{b_j\}$. Поскольку $x_j$ — целое неотрицательное число, то $\{a_{ij}x_j\} \leq \{a_{ij}\}x_j$. Таким образом, для любого целочисленного решения выполнено неравенство $\sum_{j=1}^n \{a_{ij}\}x_j \req \{b_i\}$. Это означает, что условие $a$) выполнено для сечения $(S1)$, построенного после решения задачи З$_0$, при построении задачи З$_1$. Для решения задачи З$_1$ симплекс методом неравенство, задающее сечение, нужно уровнять введением новой переменной. Можно показать, что эту новую переменную можно вывести из числа базисных переменных. В процессе решения задачи З$_1$ эта переменная в число базисных вернуться не может, так как она не входит в выражение для целевой функции. Поэтому мы можем рассматривать задачу З$_1$ в качестве задачи целочисленного программирования с увеличенным на единицу количеством переменных. В силу сказанного выше, построенное после решения задачи З$_1$ сечение будет обладать свойствами $a$), и $b$). То же можно сказать и о задаче З$_{l-1}$ при любом $l$.
+%TODO
+%\parНе удовлетворяющее условию целочисленности  решение $\overline{X}_{l-1}$ задачи З$_{l-1}$ условию $(S1)$ не удовлетворяет. Действительно, в оптимальном опорном решении свободные переменные $x_k=0$, а поскольку $\{b_s^*\}$>0, то $(S1)$ на $\overline{X}_{l-1}$ не удовлетворяется. Следовательно, ограничение $(S1)$ удовлетворяет условию $b$), упомянутому выше. Покажем, что условие $(S1)$ удовлетворяет и условию $a$). Сначала мы установим, что оно удовлетворяется для любого целочисленного решения системы ограничений задачи $(P1)$. Рассмотрим $i$-ое ограничение этой задачи $\sum_{j=1}^n a_{ij}x_j = b_i$, и возьмем дробную часть от обеих частей равенства. Поскольку дробная часть суммы не превосходит суммы дробных частей слагаемых $(\{a+b\} \geq \{a\}+\{b\})$, то справедливо неравенство $\sum_{j=1}^n \{a_{ij}\}x_j \req \{b_j\}$. Поскольку $x_j$ — целое неотрицательное число, то $\{a_{ij}x_j\} \leq \{a_{ij}\}x_j$. Таким образом, для любого целочисленного решения выполнено неравенство $\sum_{j=1}^n \{a_{ij}\}x_j \req \{b_i\}$. Это означает, что условие $a$) выполнено для сечения $(S1)$, построенного после решения задачи З$_0$, при построении задачи З$_1$. Для решения задачи З$_1$ симплекс методом неравенство, задающее сечение, нужно уровнять введением новой переменной. Можно показать, что эту новую переменную можно вывести из числа базисных переменных. В процессе решения задачи З$_1$ эта переменная в число базисных вернуться не может, так как она не входит в выражение для целевой функции. Поэтому мы можем рассматривать задачу З$_1$ в качестве задачи целочисленного программирования с увеличенным на единицу количеством переменных. В силу сказанного выше, построенное после решения задачи З$_1$ сечение будет обладать свойствами $a$), и $b$). То же можно сказать и о задаче З$_{l-1}$ при любом $l$.
 \parАлгоритм решения канонически целочисленной задачи состоит из последовательности итераций, каждая из которых включает следующие пункты:
 \begin{enumerate}
 \item[1)] решается задача З$_{l-1}$ и находится ее оптимальное решение;
@@ -299,7 +306,7 @@ $$z = \sum_{j=1}^n c_jx_j.$$
 \parМожно доказать, что в результате конечного числа итераций рассмотренного алгоритма мы придем к задаче З$_l$, которая либо имеет целочисленное решение, либо не имеет решений. В первом случае мы получаем решение исходной задачи целочисленного программирования, а во втором — устанавливаем, что эта задача не имеет решения.
 \primer{
 	Требуется найти оптимальный план задачи
-	\begin{equation*}
+	\begin{equation} %TODO: *
 	\begin{split}
 		&z = x_1 + 4x_2 \rightarrow \textrm{max},\\
 		&\begin{cases}
@@ -311,7 +318,7 @@ $$z = \sum_{j=1}^n c_jx_j.$$
 	\end{equation}
 }
 \parОтбрасывая условие целочисленности, решаем симплекс-методом задачу З$_0$:
-\begin{equation*}
+\begin{equation} %TODO: *
 \begin{split}
 	&z = x_1 + 4x_2 \rightarrow \textrm{max},\\
 	&\begin{cases}
@@ -321,18 +328,19 @@ $$z = \sum_{j=1}^n c_jx_j.$$
 	&x_1 \geq 0, \;\; i = 1,2.
 \end{split}
 \end{equation}
-\begin{table}[h]
-	\caption*{\hspace{0.8\linewidth} \textit{Таблица 1}}
-	\centering%центрируем таблицу
-		\begin{tabular}{|c|*{5}{c|}}
-			\hline
-			\parbox{2cm}{\centering Базисные переменные}& \parbox{2cm}{\centering Свободные члены} & \parbox{1.2cm}{\centering $x_1$} & \parbox{1.2cm}{\centering \downarrow$x_2$} & \parbox{1.2cm}{\centering $x_3$} & \parbox{1.2cm}{\centering $x_4$}\\
-			\hline
-			\leftarrow$x_3$ & 2 & -1 & \cellcolor[rgb]{0.8,0.8,0.8}2 & 1 & 0 &
-			\hline
-			$x_4$ & 6 & 3 & 2 & 0 & 1 &
-			\hline
-			z & 0 & -1 & -4 & 0 & 0 &
-			\hline
-		\end{tabular}
-\end{table}
+%TODO
+%\begin{table}[h]
+%	\caption*{\hspace{0.8\linewidth} \textit{Таблица 1}}
+%	\centering%центрируем таблицу
+%		\begin{tabular}{|c|*{5}{c|}}
+%			\hline
+%			\parbox{2cm}{\centering Базисные переменные}& \parbox{2cm}{\centering Свободные члены} & \parbox{1.2cm}{\centering $x_1$} & \parbox{1.2cm}{\centering \downarrow$x_2$} & \parbox{1.2cm}{\centering $x_3$} & \parbox{1.2cm}{\centering $x_4$}\\
+%			\hline
+%			\leftarrow$x_3$ & 2 & -1 & \cellcolor[rgb]{0.8,0.8,0.8}2 & 1 & 0 &
+%			\hline
+%			$x_4$ & 6 & 3 & 2 & 0 & 1 &
+%			\hline
+%			z & 0 & -1 & -4 & 0 & 0 &
+%			\hline
+%		\end{tabular}
+%\end{table}
