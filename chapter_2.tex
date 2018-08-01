@@ -1,244 +1,4 @@
-% !TEX TS-program = pdflatex
-\documentclass[10pt, a5paper, twoside]{article} %dissert
-
-\usepackage[russian]{babel}
-\usepackage{graphics}
-\usepackage{amsfonts}
-\usepackage[dvips]{graphicx}
-\usepackage{amssymb}
-\usepackage{longtable}
-\usepackage{amsmath,amssymb,amscd}
-\usepackage{amsfonts}
-\usepackage{fancyhdr}
-\usepackage[utf8]{inputenc}
-\usepackage{leqno,eucal}
-\usepackage{indentfirst}
-\usepackage{moreverb}
-\usepackage{color}
-\usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
-\usepackage{titlesec}
-%Дополнительные пакеты
-\usepackage{colortbl}
-\usepackage{multirow}
-\usepackage{makecell}
-%В гл. 4
-\usepackage{diagbox}
-%разрядка текста (команда \so)
-\usepackage{soul}
-
-\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
-
-\usepackage{enumitem}
-\setlist{nolistsep, itemsep=0cm, parsep=0pt}
-
-%для 1.5
-\definecolor{Gray}{gray}{0.9}
-
-\newcommand{\mes}{\mathrm{mes}}
-\newcommand{\diam}{\mathrm{diam}}
-\newcommand{\const}{\mathrm{const}}
-\newcommand{\diverg}{\mathrm{div}}
-
-
-\usepackage{caption}
-\DeclareCaptionLabelSeparator{dot}{. }
-\captionsetup{justification=centering,labelsep=dot,font=small}
-%\renewcommand{\thepage}{\footnotesize\arabic{page}}
-
-\renewcommand{\thesection}{\arabic{section}}
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
-\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-\renewcommand{\thefigure}{\thesection.\arabic{figure}}
-\renewcommand{\thetable}{\thesection.\arabic{table}}
-
-
-\titleformat{\section}{\normalsize\bfseries\centering}{\thesection .}{1ex}{}
-\titleformat*{\subsection}{\normalsize\bfseries}
-%\captionsetup[table] {margin=10pt,position=above}
-%\captionsetup[table] {labelsep=newline}
-\captionsetup[table] {justification=raggedright,labelsep=dot,font=small}
-
-\numberwithin{equation}{section}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-
-% Счётчики
-
-% Счётчик теорем
-\newcounter{teorema_counter}
-\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf Теорема \arabic{section}.\arabic{teorema_counter}. }}
-\numberwithin{teorema_counter}{section}
-
-
-% Счётчик лемм
-\newcounter{lemma_counter}
-\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf Лемма \arabic{section}.\arabic{lemma_counter}. }}
-\numberwithin{lemma_counter}{section}
-
-% Счётчик заданий
-\newcounter{task_counter}
-\def\zadanie{\addtocounter{task_counter}{1}\par{\bf \arabic{section}.\arabic{task_counter}. }}
-\numberwithin{task_counter}{section}
-
-
-% Счётчик определений
-\newcounter{definition_counter}
-\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf Определение \arabic{section}.\arabic{definition_counter}. }}
-\numberwithin{definition_counter}{section}
-
-% Счётчик замечаний
-\newcounter{comment_counter}
-\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Замечание \arabic{section}.\arabic{comment_counter}. }}
-\numberwithin{comment_counter}{section}
-
-% Счётчик примеров
-\newcounter{primer_counter}
-\def\primer{\addtocounter{primer_counter}{1}\par{\bf Пример \arabic{section}.\arabic{primer_counter}. }}
-\numberwithin{primer_counter}{section}
-
-\setlength{\textfloatsep}{0mm}
-
-\begin{document}
-
-\begin{minipage}{0.4\textwidth}
-\zadanie{
-\\
-$\vec{a}=(4, 6, 10, 10);\\
-\vec{b}=(7, 7, 7, 7, 2);$
-$$
-C=\left(
-\begin{array}{ccccc}
-{16} & {30} & {17} & {10} & {16} \\
-{30} & {27} & {26} & {9} & {23} \\
-{13} & {4} & {22} & {3} & {1} \\
-{3} & {1} & {5} & {4} & {24}
-\end{array}
-\right)
-$$
-\textbf{Ответ:} $z_{min} = 191$.
-}
-\end{minipage}
-\hfill
-\begin{minipage}{0.4\textwidth}
-  \zadanie{
-  \\
-  $\vec{a}=(4, 6, 10, 10);\\
-  \vec{b}=(7, 7, 7, 7, 2);$
-  $$
-  C=\left(
-  \begin{array}{ccccc}
-  {16} & {30} & {17} & {10} & {16} \\
-  {30} & {27} & {26} & {9} & {23} \\
-  {13} & {4} & {22} & {3} & {1} \\
-  {3} & {1} & {5} & {4} & {24}
-  \end{array}
-  \right)
-  $$
-  \textbf{Ответ:} $z_{min} = 191$.
-  }
-\end{minipage}
-\end{document}
-% !TEX TS-program = pdflatex
-\documentclass[10pt, a5paper, twoside]{article} %dissert
-
-\usepackage[russian]{babel}
-\usepackage{graphics}
-\usepackage{amsfonts}
-\usepackage[dvips]{graphicx}
-\usepackage{amssymb}
-\usepackage{longtable}
-\usepackage{amsmath,amssymb,amscd}
-\usepackage{amsfonts}
-\usepackage{fancyhdr}
-\usepackage[utf8]{inputenc}
-\usepackage{leqno,eucal}
-\usepackage{indentfirst}
-\usepackage{moreverb}
-\usepackage{color}
-\usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
-\usepackage{titlesec}
-%Дополнительные пакеты
-\usepackage{colortbl}
-\usepackage{multirow}
-\usepackage{makecell}
-%В гл. 4
-%разрядка текста (команда \so)
-\usepackage{soulutf8}
-
-\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
-
-\usepackage{enumitem}
-\setlist{nolistsep, itemsep=0cm, parsep=0pt}
-
-%для 1.5
-\definecolor{Gray}{gray}{0.9}
-
-\newcommand{\mes}{\mathrm{mes}}
-\newcommand{\diam}{\mathrm{diam}}
-\newcommand{\const}{\mathrm{const}}
-\newcommand{\diverg}{\mathrm{div}}
-
-
-\usepackage{caption}
-\DeclareCaptionLabelSeparator{dot}{. }
-\captionsetup{justification=centering,labelsep=dot,font=small}
-%\renewcommand{\thepage}{\footnotesize\arabic{page}}
-
-\renewcommand{\thesection}{\arabic{section}}
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
-\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-\renewcommand{\thefigure}{\thesection.\arabic{figure}}
-\renewcommand{\thetable}{\thesection.\arabic{table}}
-
-
-\titleformat{\section}{\normalsize\bfseries\centering}{\thesection .}{1ex}{}
-\titleformat*{\subsection}{\normalsize\bfseries}
-%\captionsetup[table] {margin=10pt,position=above}
-%\captionsetup[table] {labelsep=newline}
-\captionsetup[table] {justification=raggedright,labelsep=dot,font=small}
-
-\numberwithin{equation}{section}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-
-% Счётчики
-
-% Счётчик теорем
-\newcounter{teorema_counter}
-\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf Теорема \arabic{section}.\arabic{teorema_counter}. }}
-\numberwithin{teorema_counter}{section}
-
-
-% Счётчик лемм
-\newcounter{lemma_counter}
-\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf Лемма \arabic{section}.\arabic{lemma_counter}. }}
-\numberwithin{lemma_counter}{section}
-
-% Счётчик заданий
-\newcounter{task_counter}
-\def\zadanie{\addtocounter{task_counter}{1}\par{\bf \arabic{section}.\arabic{task_counter}. }}
-\numberwithin{task_counter}{section}
-
-
-% Счётчик определений
-\newcounter{definition_counter}
-\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf Определение \arabic{section}.\arabic{definition_counter}. }}
-\numberwithin{definition_counter}{section}
-
-% Счётчик замечаний
-\newcounter{comment_counter}
-\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Замечание \arabic{section}.\arabic{comment_counter}. }}
-\numberwithin{comment_counter}{section}
-
-% Счётчик примеров
-\newcounter{primer_counter}
-\def\primer{\addtocounter{primer_counter}{1}\par{\bf Пример \arabic{section}.\arabic{primer_counter}. }}
-\numberwithin{primer_counter}{section}
-
-\setlength{\textfloatsep}{0mm}
-
-\begin{document}
-
+%разделитель
 \subsection{Об одном свойстве закрытой транспортной задачи}
 Матрицу стоимостей транспортной задачи можно определенным образом изменить, не меняя оптимального плана перевозок. Справедлива следующая \teorema{Если к элементам произвольного столбца или
 произвольной строки матрицы стоимостей транспортной задачи
@@ -258,7 +18,7 @@ $z{}_{1}$=$\sum _{i,j}c_{ij} x_{ij} +\sum _{i=1}^{n}\alpha _{i}  a_{i} +\sum _{j
 
 что и доказывает утверждение теоремы. Очевидно, что оптимальные планы перевозок задач с матрицами перевозок $C$ и $C{}_{1}$ совпадают.
 
-Сформулированное свойство транспортной задачи позволяет использовать преобразование матрицы перевозок для нахождения оптимального опорного решения. Можно так изменить элементы матрицы стоимостей, чтобы они, оставаясь неотрицательными, стали равными нулю в базисных клетках некоторого опорного плана. На этом основан так называемый венгерский метод решения транспортной задачи (см. [15], с.180) (ССЫЛКУ ДОБАВИТЬ!). %!!!!!!!!!!!!
+Сформулированное свойство транспортной задачи позволяет использовать преобразование матрицы перевозок для нахождения оптимального опорного решения. Можно так изменить элементы матрицы стоимостей, чтобы они, оставаясь неотрицательными, стали равными нулю в базисных клетках некоторого опорного плана. На этом основан так называемый венгерский метод решения транспортной задачи (см. \cite{literature_golshtein_1}, с.180).
 
 \subsection{Открытые транспортные задачи}
 Выше мы предполагали, что общие запасы $A$ равны общим потребностям $B$. В случае $A\neq B$  формулировка транспортной задачи различна  в  случаях $A<B$ и $A>B$. В случае$A<B$ мы можем обеспечить вывоз груза из пунктов отправления, однако удовлетворить все пункты назначения (потребителей) мы не можем. При  математической формулировке горизонтальные уравнения остаются без изменений, а вертикальные уравнения  превратятся в неравенства типа ''$\leq$``. Транспортная задача будет формулироваться так:
@@ -366,7 +126,7 @@ $x_{ij} \ge 0,\quad i=\overline{1,m};\quad j=\overline{1,n}$
 
 Однако в отличие от нее в одной из групп ограничений допускаются произвольные, не обязательно единичные, ненулевые коэффициенты при входящих в ограничения переменных. Такие задачи называются \textit{распределительными задачами}. Для них разработаны различные алгоритмы решения, хотя и более сложные, чем для транспортной задачи, однако значительно более простые, чем общие методы линейного программирования.
 
-Отметим, что нами рассматривалась транспортная задача в матричной постановке. Существуют сетевые постановки транспортной задачи. Подробно с задачами транспортного типа, в том числе, и в сетевой постановке можно ознакомиться по книге [15]. (добавить ссылку также, я так понимаю) %!!!!!!!!!!!!!!
+Отметим, что нами рассматривалась транспортная задача в матричной постановке. Существуют сетевые постановки транспортной задачи. Подробно с задачами транспортного типа, в том числе, и в сетевой постановке можно ознакомиться по книге \cite{literature_golshtein_1}.
 
 \begin{center}
 {\bf Контрольные вопросы для самостоятельного решения}
@@ -452,14 +212,14 @@ $$
 
 Требуется составить такой план прикрепления потребителей продукции к ее поставщикам, чтобы общие затраты были минимальными.}
 
-(что с этим делать? как нумеровать ниже штуки?)
-\\ %!!!!!
+\zadanie{\textbf{--- 2.8} \textit{Записать формулировки транспортных задач }2.1 --- 2.4\textit{ с помощью таблицы данных и найти для каждой из задач первое опорное решение методами северо-западного угла и наименьшей стоимости. Результаты сравнить между собой.}
+\addtocounter{task_counter}{3}
+}
+\zadanie{\textbf{--- 2.11} \textit{ Найти оптимальное решение задач }2.1---2.3\textit{ распределительным методом.}
+\addtocounter{task_counter}{2}
+}
 
-\textbf{2.5 --- 2.8.} \textit{Записать формулировки транспортных задач }2.1 --- 2.4\textit{ с помощью таблицы данных и найти для каждой из задач первое опорное решение методами северо-западного угла и наименьшей стоимости. Результаты сравнить между собой.}
-
-\textbf{2.9---2.11.}\textit{ Найти оптимальное решение задач }2.1---2.3\textit{ распределительным методом.}
-
-\textit{Задачи }2.12 --- 2.21\textit{ решить методом потенциалов. В этих задачах задаются векторы запасов $\vec{a}=(a_{1} ,\, a_{2} ,\, \ldots ,\, a_{m} )$ и потребностей $\vec{b}=(b_{1} ,\, b_{2} ,\ldots ,\, b_{n} )$}, \textit{а также матрица стоимостей C}.
+\textit{Задачи }\zadanie{\textbf{--- 2.21}\textit{ решить методом потенциалов. В этих задачах задаются векторы запасов $\vec{a}=(a_{1} ,\, a_{2} ,\, \ldots ,\, a_{m} )$ и потребностей $\vec{b}=(b_{1} ,\, b_{2} ,\ldots ,\, b_{n} )$}, \textit{а также матрица стоимостей C}}.
 \\
 \begin{minipage}{0.4\textwidth}
 \zadanie{
@@ -655,6 +415,3 @@ $$
 }
 \end{minipage}
 \\
-%---------------------------------
-\include{literature}
-\end{document}
