@@ -288,7 +288,11 @@ y_1, y_2 \ge 0.
 \]
 можно решить графически (рис.3.1.).
 
-%TODO ГРАФИК ГРАФИК ГРАИФИК РАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pictures/picturefile_3_1}}
+\caption*{Рис. 3.1. Графическое решение двойственной задачи}
+\label{picture_3_1}
+\end{figure}
 
 Точкой минимума двойственной задачи является точка $A\left(\frac{3}{5};\frac{4}{5}\right)$. $z_{max} = f_{min} = f(A) = 2 \cdot \frac{3}{5} + 3 \cdot \frac{4}{5} = \frac{6}{6} + \frac{12}{5} = \frac{18}{5}$. Для определения  точки максимума исходной задачи составим условия дополнительной нежесткости:
 \[
@@ -427,7 +431,11 @@ x^0_2 = \frac{2}{5}\left(2 + \Delta b_1\right) + \frac{1}{5}\left(3 + \Delta b_2
 x^0_3 = \frac{1}{5}\left(2 + \Delta b_1\right) + \frac{3}{5}\left(3 + \Delta b_2\right) = \frac{11}{5} + \frac{1}{5} \Delta b_1 + \frac{3}{5} \Delta b_2.
 \]
 
-%TODO ГРАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК ГРАФИК
+\begin{figure}[h!]
+\center{\includegraphics[width=1\linewidth]{pictures/picturefile_3_2}}
+\caption*{Рис. 3.2. Область устойчивости двойственных оценок примера 3.4}
+\label{picture_3_2}
+\end{figure}
 
 Приращения $\Delta b_1$ и $\Delta b_2$ должны удовлетворять неравенствам
 \[
@@ -620,15 +628,51 @@ $\ \ \ \ \ \ \ \ \ \ \ \ \ x_1, x_2, x_3, x_5 \ge 0.\ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 
 Составим обобщенную симплекс таблицу исходной задачи.
 
-%TODO ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1 ТАБЛИЦА 1
+\begin{table}[h!]
+\caption*{\hspace{0.8\linewidth} \textit{Таблица 1}}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Базисные \\ переменные\end{tabular} & \begin{tabular}[c]{@{}c@{}}Свободные\\ члены\end{tabular} & $x_1$ & $\downarrow x_2$ & $x_3$ & $x_4$ & $x_5$ \\ \hline
+$x_3$                                                           & 8                                                         & 1    & 1                              & 1    & 0    & 0    \\ \hline
+$x_4$                                                           & -4                                                        & -1   & 1                              & 0    & 1    & 0    \\ \hline
+\cellcolor[gray]{0.75} $\leftarrow x_5$                         &\cellcolor[gray]{0.75} -6            &\cellcolor[gray]{0.75} -1   &\cellcolor[gray]{0.75} [-2]       &\cellcolor[gray]{0.75} 0    &\cellcolor[gray]{0.75} 0    &\cellcolor[gray]{0.75} 1    \\ \hline
+$z$                                                              & 16                                                        & 1    & 1                              & 0    & 0    & 0    \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 Таблица отвечает псевдоплану. Согласно соответствию переменных (F) этому псевдоплану соответствует допустимый план  (0, 0, 0, 1, 1) двойственной задачи. По сформулированному выше правилу выбираем разрешающий элемент (-2) и перейдем к следующей таблице.
 
-%TODO ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2 ТАБЛИЦА 2
+\begin{table}[h!]
+\caption*{\hspace{0.8\linewidth} \textit{Таблица 2}}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Базисные \\ переменные\end{tabular} & \begin{tabular}[c]{@{}c@{}}Свободные\\ члены\end{tabular} & $\downarrow x_1$ & $x_2$ & $x_3$ & $x_4$ & $x_5$ \\ \hline
+$x_3$                                                          & 5                                                         & 1/2              & 0     & 1     & 0     & 1/2   \\ \hline
+\cellcolor[gray]{0.75} $\leftarrow x_4$  &\cellcolor[gray]{0.75} -7  &\cellcolor[gray]{0.75} [-3/2]  &\cellcolor[gray]{0.75} 0 &\cellcolor[gray]{0.75} 0     &\cellcolor[gray]{0.75} 1     &\cellcolor[gray]{0.75} 1/2   \\ \hline
+$x_5$                                                          & 3                                                         & 1/2              & 1     & 0     & 0     & -1/2  \\ \hline
+$z$                                                            & 13                                                        & 1/2              & 0     & 0     & 0     & 1/2   \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 Эта таблица тоже соответствует псевдоплану, а также допустимому плану (0, 0, $\frac{1}{2}$, $\frac{1}{2}$, 0) двойственной задачи.
 
-%TODO ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА ТАБЛИЦА
+\begin{table}[h!]
+\caption*{\hspace{0.8\linewidth} \textit{Таблица 3}}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Базисные \\ переменные\end{tabular} & \begin{tabular}[c]{@{}c@{}}Свободные\\ члены\end{tabular} & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $x_5$ \\ \hline
+$x_3$                                                          & 8/3                                                       & 0     & 0     & 1     & 1/3   & 2/3   \\ \hline
+$x_1$                                                          & 14/3                                                      & 1     & 0     & 0     & -2/3  & -1/3  \\ \hline
+$x_2$                                                          & 2/3                                                       & 0     & 1     & 0     & 1/3   & -1/3  \\ \hline
+$z$                                                            & 32/3                                                      & 0     & 0     & 0     & 1/3   & 2/3   \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 В последней симплекс таблице псевдоплан является допустимым планом, а, следовательно, оптимальным планом задачи. Получаем ответ в исходной задаче: $z_{max} = \frac{32}{3}; точка максимума (\frac{14}{3}; \frac{2}{3})$. Решение двойственной задачи тоже прочитывается по последней симплекс таблице: $f_{min} = \frac{32}{3}$; точка минимума (0; $\frac{1}{3}$; $\frac{2}{3}$).
 }
@@ -645,35 +689,30 @@ $\ \ \ \ \ \ \ \ \ \ \ \ \ x_1, x_2, x_3, x_5 \ge 0.\ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 \subsection{Понятие об устойчивости задач линейного программирования. Регуляризация неустойчивых задач}
 
 Содержание этого параграфы важно для практического применения линейного программирования и существенно использует основные результаты теории двойственности. При численном решении задачи линейного программирования вида
-\[
+\begin{align}
 z = \left(\overrightarrow{c}, \overrightarrow{x}\right) \rightarrow max \\
 A\overrightarrow{x} \le \overrightarrow{b}, \overrightarrow{x} \ge 0
-\eqno(3.2)
-\]
+\end{align}
 
 ЭВМ оперирует лишь приближенными значениями параметров задачи, округляемыми в процессе счета. По сути дела происходит замена задачи (3.2) некоторой задачей
-\begin{equation}
+\begin{align}
 z = (\overrightarrow{c}( \delta), \overrightarrow{x}) \rightarrow max \\
 A (\delta)\overrightarrow{x} \le \overrightarrow{b}(\delta), \overrightarrow{x} \ge 0,
-\end{equation}
+\end{align}
 
 где относительно матрицы $A(\delta)$ и векторов $\overrightarrow{b} \left( \delta \right), \overrightarrow{c} \left( \delta \right)$  известно только, что они в определенной степени близки к истинным значениям матрицы A и векторов $\overrightarrow{b}, \overrightarrow{c}$ . Кроме того, при исследовании математических моделей реальных явлений параметры модели получаются на основании экспериментальных данных и, чаще всего, известны приближенно с определенной степенью точности. Поэтому, если исследуемая модель имеет вид (3.2), то можно сказать, лишь, что истинная модель описывается одной из задач вида (3.3). В связи со сказанным вопросы о взаимосвязи этих задач представляют большой практический интерес.
 
 Близость матриц и векторов будем выражать в обычной евклидовой метрике, т. е. расстоянием между двумя матрицами $A = (a_{ij})$ и $A^{(1)}=(a_{ij})$  размера $m \times n$ назовем число
 
-%ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА
+$$\Vert A-A^{(1)}\Vert = \sqrt{\sum_{i=1}^{m}\sum_{j=1}^{m}(a_{ij} - a_{ij}^{(1)})^2}.$$
 
 Аналогично, если $\overrightarrow{b} = {b_1, b_2, \ldots, b_m}, \overrightarrow{b}^{(1)} = {b^{(1)}_1, b^{(2)}_2, \ldots, b^{(1)}_m}$, то
 
-%ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА
+$$\Vert \overrightarrow{b}-\overrightarrow{b}^{(1)}\Vert = \sqrt{\sum_{i=1}^{m}(b_i - b_i^{(1)})^2}.$$
 
 При фиксированных матрице A и векторах $\overrightarrow{b}, \overrightarrow{c}$  для любого $\delta > 0$ символами $A (\delta ), \overrightarrow{b} ( \delta ), \overrightarrow{c} ( \delta )$ будем обозначать любые элементы из соответствующих $\delta$-окрестностей:
 
-%Контрольные вопросы
-\addcontentsline{toc}{subsection}{Контрольные вопросы и задачи для самостоятельного решения}
-\subsection*{Контрольные вопросы и задачи для самостоятельного решения}
-
-%ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА ФОРМУЛА
+$$\Vert A - A(\delta) \Vert < \delta, \Vert \overrightarrow{b} -\overrightarrow{b}(\delta) \Vert < \delta, \Vert \overrightarrow{c} -\overrightarrow{c}(\delta) \Vert < \delta.$$
 
 Задачу (3.3) будем называть \textit{возмущенной задачей}, принадлежащей $\delta$-окрестности задачи (3.2), если выполнены условия (U).
 
@@ -702,12 +741,35 @@ A (\delta)\overrightarrow{x} \le \overrightarrow{b}(\delta), \overrightarrow{x} 
 
 В рамках общей методологии регуляризации некорректных задач, принадлежащей А.Н. Тихонову (см., например, \cite{literature_tihonov}),  построены методы, позволяющие решать произвольную задачу линейного программирования с любой степенью точности безотносительно к тому, устойчива она или нет. Однако при этом регуляризованная задача уже не является задачей линейного программирования. Здесь мы изложим метод регуляризации, не выводящий за рамки линейного программирования (см.\cite{literature_ashmanov_1981} стр.271-286).
 
-Предположим, что данная задача вида (3.2) не является устойчивой. Как следует из теоремы 3.4, это может происходить по двум причинам: а) не существует положительного вектора $\overrightarrow{x}^0 > 0, для которого A\overrightarrow{x}^0 < \overrightarrow{b}$ б) не существует положительного вектора $\overrightarrow{p}^0 > 0$, для которого $A^T\overrightarrow{p}^0>\overrightarrow{c}$. Будем предполагать, что задача (3.2) имеет решение. Это означает, в частности, что допустима как задача (3.2), так и двойственная к ней, т.е. существуют векторы $\overrightarrow{x}_1$ и $ $. Сопоставим задаче (3.2) возмущенную задачу вида
+Предположим, что данная задача вида (3.2) не является устойчивой. Как следует из теоремы 3.4, это может происходить по двум причинам: а) не существует положительного вектора $\overrightarrow{x}^0 > 0, для которого A\overrightarrow{x}^0 < \overrightarrow{b}$ б) не существует положительного вектора $\overrightarrow{p}^0 > 0$, для которого $A^T\overrightarrow{p}^0>\overrightarrow{c}$. Будем предполагать, что задача (3.2) имеет решение. Это означает, в частности, что допустима как задача (3.2), так и двойственная к ней, т.е. существуют векторы $\overrightarrow{x}_1 \geq 0 : A \overrightarrow{x}_1 \leq \overrightarrow{b}$ и $\overrightarrow{p}_1 \geq 0 : A^T \overrightarrow{p}_1 \geq \overrightarrow{c} $. Сопоставим задаче (3.2) возмущенную задачу вида
+\begin{align}
+z = (\overrightarrow{c} - \delta \overrightarrow{e}, \overrightarrow{x}) \rightarrow max, \\
+A\overrightarrow{x} \leq \overrightarrow{b}+\delta\overrightarrow{\nu}, \overrightarrow{x} \geq 0,
+\end{align}
+где число $\delta>0, \overrightarrow{e} = \{ 1,1,\ldots,1\} \in R^n, \overrightarrow{\nu}=\{ 1,1,\ldots,1\}\in R^m$.
+\teorema{Если задача (3.2) имеет решение, то задача (3.4) устойчива при любом $\delta > 0$.}
 
-где число d>0, .
-% ДОПИСАТЬ
+\so{Доказательство}. Покажем, что для задачи (3.4) выполняются условия теоремы 3.4. Положим $\overrightarrow{x}^0 = \overrightarrow{x}_1 + \alpha\overrightarrow{e}, \overrightarrow{p}^0 = \overrightarrow{p}_1 + \alpha \overrightarrow{\nu}$. Поскольку $A\overrightarrow{x}_1 < \overrightarrow{b} + \delta\overrightarrow{\nu}, A^T\overrightarrow{p}_1 > \overrightarrow{c} - \delta \overrightarrow{e}$, то найдется такое число $\alpha > 0$, что
+\begin{align*}
+  A\overrightarrow{x}^0 = A\overrightarrow{x}_1 + \alpha A\overrightarrow{e} <\overrightarrow{b}+\delta\overrightarrow{\nu},\\
+  A^T\overrightarrow{p}^0 = A^T\overrightarrow{p}_1 + \alpha A^T\overrightarrow{\nu} >\overrightarrow{c}-\delta\overrightarrow{e},
+\end{align*}
+
+При этом очевидно, что $\overrightarrow{x}^0 > 0, \overrightarrow{p}^0 > 0.$ Теорема доказана.
+
+Задачу (3.4) назовем регуляризованной по отношению к задаче (3.2). Следующие две теоремы показывают, что с помощью решения регуляризованной задачи в принципе можно найти с любой степенью точности решение (если оно существует) задачи вида (3.2) безотносительно к ее устойчивости или неустойчивости.
+
+\teorema{\textit{Пусть $d, d(\beta)$ - оптимальные значения соответственно задачи вида (3.2) и регуляризованной по отношению к ней задачи (3.4), тогда справедливо равенство $\lim_{\beta\rightarrow0} d(\beta) = d$ .}}
+
+\so{Доказательство}. Пусть $\overrightarrow{x}^0$ и $\overrightarrow{p}^0$ решения соответственно задачи (3.2) и двойственной к ней. Вектор $\overrightarrow{x}^0$ является допустимым для задачи (3.4) при любом $\delta > 0$. Следовательно, ($\overrightarrow{x} - \delta\overrightarrow{e},\overrightarrow{x}^0) \leq d(\delta)$ или $(\overrightarrow{c},\overrightarrow{x}^*) - \delta(\overrightarrow{e},\overrightarrow{x}^*) \leq d(\delta)$. Учитывая, что $\overrightarrow{c},\overrightarrow{x}^0) = d$, получим $d - \delta(\overrightarrow{e},\overrightarrow{x}^0) \geq d(\delta)$. Проводя аналогичные рассуждения для задач двойственных к задачам (3.2), (3.4), получим $d(\delta) \leq d + \delta(\overrightarrow{v},\overrightarrow{p}^0)$. Объединяя эти неравенства имеем $$d - \delta(\overrightarrow{e},\overrightarrow{x}^0) \leq d(\delta) \leq d + \delta(\overrightarrow{v},\overrightarrow{p}^0).$$
+Отсюда вытекает утверждение теоремы.
+
+Приведем без доказательства теорему, показывающую что решение $\overrightarrow{x}(\delta)$ задачи (3.4) при малых $\delta > 0$ близко к множеству $X^{(0)}$ решений задачи (3.2).
+
+%TODO закончить с 3.7
 
 %Контрольные вопросы
+\addcontentsline{toc}{subsection}{Контрольные вопросы и задачи для самостоятельного решения}
 \subsection*{Контрольные вопросы и задачи для самостоятельного решения}
 
 \begin {enumerate}
@@ -825,7 +887,8 @@ $$x_1,\dots,x_4 \geq 0.$$
 \end{minipage}
 
 \vspace{6pt}
-\zadanie{,\zadanie{}}
+\zadanie{, \textbf{3.8}}
+\addtocounter{task_counter}{1}
 \textit{В задачах 3.5, 3.6 найти решение исходной задачи, используя решение двойственной и вторую теорему двойственности.}
 \vspace{6pt}
 \zadanie{}

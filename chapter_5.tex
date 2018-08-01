@@ -46,10 +46,8 @@ $$	x_{ij} = \begin{cases}
 	\end{cases}\hspace{-1em},\;\; i = 1,2,3,\;\; j = 1,2,3.
 $$
 \parПосле введения фиктивной вакансии мы получаем задачу, в которой условия бул	евости можно заменить условиями неотрицательности переменных. Задачу можно рассматривать как транспортную задачу на минимум целевой функции $z = -4x_{11} - 7x_{12} - x_{13} - 5x_{21} - x_{22} -6x_{23}\rightarrow \textrm{max}$, которую можно записать в виде следующей таблицы данных
-\vspace{-1em}
-\begin{table}[h!]
+$$
 \label{table_5_1}
-\begin{center}
 \begin{tabular}{|c|*{4}{c|}}
 	\hline
 	\parbox{1.5cm}{\hspace{1.5cm}}& & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
@@ -65,9 +63,7 @@ $$
 	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
 	\hline
 \end{tabular}
-\end{center}
-\end{table}
-\vspace{-2em}
+$$
 \parНаходим первое опорное решение методом наименьшей стоимости. Запишем и решим систему уравнений для потенциалов.
 $$
 \begin{cases}
@@ -86,10 +82,8 @@ $$
 }
 $$
 \parВычислим коэффициенты $\gamma_{ij}$ для свободных клеток. $\gamma_{11}=-4$, $\gamma_{22}=11$, $\gamma_{31}=-1$, $\gamma_{32}=6$. Составим цикл пересчета для клетки $x_{31}$ и произведем сдвиг по этому циклу на единицу. Получим следующую таблицу
-%\vspace{-1em}
-\begin{table}[h!]
+$$
 \label{table_5_2}
-\begin{center}
 \begin{tabular}{|c|*{4}{c|}}
 	\hline
 	\parbox{1.5cm}{\hspace{1.5cm}}& & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
@@ -105,9 +99,7 @@ $$
 	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
 	\hline
 \end{tabular}
-\end{center}
-\end{table}
-\vspace{-1em}
+$$
 Снова составим и решим систему уравнений для потенциалов.
 $$
 \begin{cases}
@@ -125,11 +117,9 @@ $$
 	\end{cases}$
 }
 $$
-Следовательно, $\gamma_{13}=1$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Составим цикл пересчета для клетки $x_{23}$ и произведем сдвиг по этому циклу. Получим таблицу
-\vspace{-1em}
-\begin{table}[h!]
+\parСледовательно, $\gamma_{13}=1$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Составим цикл пересчета для клетки $x_{23}$ и произведем сдвиг по этому циклу. Получим таблицу
+$$
 \label{table_5_3}
-\begin{center}
 \begin{tabular}{|c|*{4}{c|}}
 	\cline{3-5}
 	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
@@ -145,9 +135,7 @@ $$
 	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
 	\hline
 \end{tabular}
-\end{center}
-\end{table}
-\vspace{-1em}
+$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -163,10 +151,8 @@ $$
 	\end{cases}
 $$
 $\gamma_{13}=3$, $\gamma_{21}=-7$, $\gamma_{23}=-8$, $\gamma_{32}=3$. Производим сдвиг по циклу пересчета для клетки $x_{21}$.
-\vspace{-1em}
-\begin{table}[h!]
+$$
 \label{table_5_4}
-\begin{center}
 \begin{tabular}{|c|*{4}{c|}}
 	\cline{3-5}
 	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
@@ -182,9 +168,7 @@ $\gamma_{13}=3$, $\gamma_{21}=-7$, $\gamma_{23}=-8$, $\gamma_{32}=3$. Производим
 	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}}\\
 	\hline
 \end{tabular}
-\end{center}
-\end{table}
-\vspace{-1em}
+$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -200,10 +184,8 @@ $$
 	\end{cases}
 $$
 $\gamma_{13}=3$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Преобразуем таблицу с помощью цикла пересчета для клетки $x_{23}$.
-\vspace{-1em}
-\begin{table}[h!]
+$$
 \label{table_5_5}
-\begin{center}
 \begin{tabular}{|c|*{4}{c|}}
 	\cline{3-5}
 	\multicolumn{2}{c|}{} & \parbox{2cm}{$$v_1$$} & \parbox{2cm}{$$v_2$$} & \parbox{2cm}{$$v_3$$}\\
@@ -219,9 +201,7 @@ $\gamma_{13}=3$, $\gamma_{22}=7$, $\gamma_{23}=-1$, $\gamma_{32}=3$. Преобразуем
 	$u_3$ & 1 & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 1 \\ \end{tabular}} &{\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & \; \\ \end{tabular}} & {\begin{tabular}{lr} \hspace{-2ex}\framebox[1cm][c]{0} & \\  & 0 \\ \end{tabular}}\\
 	\hline
 \end{tabular}
-\end{center}
-\end{table}
-\vspace{-1em}
+$$
 $$
 \begin{cases}
    u_1 + v_1 = -4,\\
@@ -383,7 +363,7 @@ z & 4 & -3 & 0 & 2 & 0 \\
 \hline
 \end{tabular}
 \end{table}
-
+\newpage
 \begin{table}[h]
 \label{table_5_8}
 \caption*{\hspace{0.8\linewidth} \textit{Таблица 3}}
@@ -491,7 +471,7 @@ z & 16/3 & 0 & 0 & 0 & 1/3 & 10/3& 0\\
 \end{table}
 
 Выбирая разрешающий элемент, переходим к следующей таблице.
-
+\newpage
 \begin{table}[h]
 \label{table_5_12}
 \caption*{\hspace{0.8\linewidth} \textit{Таблица 2}}
@@ -575,7 +555,7 @@ $$
 где переменная x$_3$ может принимать нецелочисленные значения.
 
 Отбрасывая условия целочисленности, получаем следующую симплекс таблицу
-
+\newpage
 \begin{table}[h]
 \label{table_5_13}
 \caption*{\hspace{0.8\linewidth} \textit{Таблица 1}}
@@ -636,7 +616,7 @@ z & 16/3 & 1/3 & 0 & 0 & 4/3 & 0\\
 \end{table}
 
 Выбираем разрешающий элемент и переходим к новой таблице.
-\vspace{2ex}
+\newpage
 \begin{table}[h!]
 \label{table_5_16}
 \caption*{\hspace{0.8\linewidth} \textit{Таблица 2}}
