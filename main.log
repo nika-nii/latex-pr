@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdflatex 2018.9.4)  6 SEP 2018 08:59
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdflatex 2018.9.4)  6 SEP 2018 09:31
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -167,6 +167,36 @@ Package: amscd 1999/11/29 v1.2d
 \bigaw@=\dimen117
 \minCDarrowwidth=\dimen118
 )
+(c:/texlive/2009/texmf-dist/tex/latex/oberdiek/stackrel.sty
+Package: stackrel 2007/11/11 v1.2 Adding subscript option to stackrel (HO)
+
+(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
 (c:/texlive/2009/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
@@ -251,17 +281,6 @@ Package: xcolor-patch 2009/10/02 xcolor patch
 (c:/texlive/2009/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
 )
-(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)
 (c:/texlive/2009/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -300,23 +319,7 @@ Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
 )
 (c:/texlive/2009/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(c:/texlive/2009/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
+))
 \Fld@menulength=\count111
 \Field@Width=\dimen120
 \Fld@charsize=\dimen121
@@ -544,33 +547,35 @@ Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
 \c@comment_counter=\count140
 \c@primer_counter=\count141
 \c@statement_counter=\count142
-
-No file main.aux.
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 107.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 107.
-
-(c:/texlive/2009/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+ (./main.aux
+(./title.aux)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 16.
+ (c:/texlive/2009/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+(./intro.aux) (./chapter_1.aux) (./chapter_2.aux) (./chapter_3.aux)
+(./chapter_4.aux) (./chapter_5.aux) (./chapter_6.aux) (./chapter_7.aux)
+(./chapter_8.aux) (./addition.aux) (./literature.aux) (./the_end.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 
 (c:/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -585,7 +590,7 @@ LaTeX Font Info:    ... okay on input line 107.
 \MPnumerator=\count147
 \everyMPtoPDFconversion=\toks41
 )
-Package hyperref Info: Link coloring ON on input line 107.
+Package hyperref Info: Link coloring ON on input line 108.
  (c:/texlive/2009/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -594,13 +599,15 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 107.
-LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \AtBeginShipoutBox=\box37
-LaTeX Info: Redefining \selectfont on input line 107.
+LaTeX Info: Redefining \selectfont on input line 108.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -658,13 +665,29 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
-) [3]
+) [3] (./main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (5.84213pt too wide) in paragraph at lines 16--16
+ [][] [][][]\T2A/cmr/m/n/8 Преобразование ре-ше-ния си-сте-мы огра-ни-че-ний тр
+анс-порт-ной за-да-чи сдви- 
+ []
+
+[4
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4
-
-]
+ [5]
 \openout2 = `intro.aux'.
 
  (./intro.tex
@@ -672,13 +695,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 Package hyperref Warning: No destination for bookmark of \addcontentsline,
 (hyperref)                destination is added on input line 2.
 
-[5
+[6
 
 ])
 Underfull \vbox (badness 7203) has occurred while \output is active []
 
- [6]
-[7]
+ [7]
+[8]
 \openout2 = `chapter_1.aux'.
 
  (./chapter_1.tex
@@ -687,19 +710,11 @@ Overfull \hbox (1.55078pt too wide) in paragraph at lines 5--5
 -нов-
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-(c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
-
-(c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [8
+[9
 
 
-] [9] [10] [11]
-<pictures/picturefile_1_1.png, id=68, 314.97675pt x 166.82326pt>
+] [10] [11] [12]
+<pictures/picturefile_1_1.png, id=467, 314.97675pt x 166.82326pt>
 File: pictures/picturefile_1_1.png Graphic file (type png)
 
 <use pictures/picturefile_1_1.png>
@@ -712,7 +727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-[12]
+[13]
 File: pictures/picturefile_1_1.png Graphic file (type png)
  <use pictures/picturefile_1_1.png>
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
@@ -722,7 +737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
 Underfull \vbox (badness 5741) has occurred while \output is active []
 
- [13 <./pictures/picturefile_1_1.png>] [14] [15] [16] [17]
+ [14 <./pictures/picturefile_1_1.png>] [15] [16] [17] [18]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 444.
 
@@ -738,13 +753,10 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 444.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 444.
 
-[18] [19] [20]
-Overfull \hbox (1.37984pt too wide) in paragraph at lines 539--540
-[]\T2A/cmr/bx/n/8 Замечание 1.1. \T2A/cmr/m/n/8 За-ме-ча-ние. Из-ло-жен-ный ал-
-го-ритм со-дер-жит воз-мож-ность неопре-
- []
+[19] [20] [21]
+Underfull \vbox (badness 5231) has occurred while \output is active []
 
-[21]
+ [22]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
@@ -756,15 +768,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22]
-Underfull \vbox (badness 4505) has occurred while \output is active []
-
- [23]
+[23] [24]
 Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
-[24]
+[25]
 Overfull \hbox (24.9204pt too wide) in paragraph at lines 742--750
  [] 
  []
@@ -791,7 +800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 821--822
 
  []
 
-[25]
+[26]
 Overfull \hbox (4.60399pt too wide) in paragraph at lines 851--859
  [] 
  []
@@ -828,27 +837,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 908--909
 
  []
 
-[26] [27] [28]
+[27] [28] [29]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]
-
-LaTeX Warning: Citation `literature_hachiyan' on page 30 undefined on input lin
-e 1027.
-
-
-LaTeX Warning: Citation `literature_dikin' on page 30 undefined on input line 1
-030.
-
-
-Overfull \hbox (13.3401pt too wide) in paragraph at lines 1029--1033
-[]\T2A/cmr/bx/n/8 Теорема 1.2. \T2A/cmr/m/n/8 Для ре-ше-ния за-да-чи ли-ней-но-
-го про-грам-ми-ро-ва-ния до-ста-точ-но $\OML/cmm/m/it/8 O\OT1/cmr/m/n/8 (\OML/c
-mm/m/it/8 n[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 n \OT1/cmr/m/n/8 +
+[30]
+Overfull \hbox (1.74095pt too wide) in paragraph at lines 1029--1033
+\T2A/cmr/m/it/8 слож-ность\T2A/cmr/m/n/8 . К со-жа-ле-нию, в вы-чис-ли-тель-ном
+ плане ме-тод эл-лип-со-и-дов ока-зал-ся непер-
  []
 
-[30]
+[31]
 Overfull \hbox (10.53555pt too wide) in paragraph at lines 1059--1071
 [][] 
  []
@@ -856,7 +855,7 @@ Overfull \hbox (10.53555pt too wide) in paragraph at lines 1059--1071
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31]
+[32]
 Overfull \hbox (14.17555pt too wide) in paragraph at lines 1077--1088
 [][] 
  []
@@ -870,7 +869,7 @@ Overfull \hbox (1.32573pt too wide) in paragraph at lines 1095--1103
 [][] 
  []
 
-[32]
+[33]
 Overfull \hbox (5.6212pt too wide) detected at line 1123
 []
  []
@@ -886,7 +885,7 @@ Overfull \hbox (3.92104pt too wide) in paragraph at lines 1172--1173
 о-го про-грам-ми-ро-ва-ния, най-
  []
 
-[33]
+[34]
 Overfull \hbox (12.68367pt too wide) detected at line 1272
 []
  []
@@ -906,34 +905,34 @@ Overfull \hbox (32.0241pt too wide) detected at line 1311
 []
  []
 
-[34]) [35]
+[35]) [36]
 \openout2 = `chapter_2.aux'.
 
  (./chapter_2.tex
-<pictures/picturefile_2_1.png, id=239, 292.84406pt x 146.79843pt>
+<pictures/picturefile_2_1.png, id=637, 292.84406pt x 146.79843pt>
 File: pictures/picturefile_2_1.png Graphic file (type png)
 
 <use pictures/picturefile_2_1.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36
+[37
 
 
-] [37 <./pictures/picturefile_2_1.png (PNG copy)>]
-<pictures/picturefile_2_2.png, id=254, 295.85532pt x 104.64093pt>
+] [38 <./pictures/picturefile_2_1.png (PNG copy)>]
+<pictures/picturefile_2_2.png, id=650, 295.85532pt x 104.64093pt>
 File: pictures/picturefile_2_2.png Graphic file (type png)
 
 <use pictures/picturefile_2_2.png>
-<pictures/picturefile_2_3.png, id=255, 266.49562pt x 132.495pt>
+<pictures/picturefile_2_3.png, id=651, 266.49562pt x 132.495pt>
 File: pictures/picturefile_2_3.png Graphic file (type png)
 
-<use pictures/picturefile_2_3.png> [38 <./pictures/picturefile_2_2.png (PNG cop
+<use pictures/picturefile_2_3.png> [39 <./pictures/picturefile_2_2.png (PNG cop
 y)> <./pictures/picturefile_2_3.png (PNG copy)>]
-<pictures/picturefile_2_4.png, id=264, 299.61937pt x 195.73125pt>
+<pictures/picturefile_2_4.png, id=659, 299.61937pt x 195.73125pt>
 File: pictures/picturefile_2_4.png Graphic file (type png)
 
-<use pictures/picturefile_2_4.png> [39 <./pictures/picturefile_2_4.png (PNG cop
+<use pictures/picturefile_2_4.png> [40 <./pictures/picturefile_2_4.png (PNG cop
 y)>]
 
 LaTeX Warning: Command \cyri invalid in math mode on input line 110.
@@ -947,16 +946,19 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 110.
 Missing character: There is no и in font cmr8!
 Missing character: There is no л in font cmr8!
 Missing character: There is no и in font cmr8!
-[40] <pictures/picturefile_2_5.png, id=278, 301.8778pt x 153.57375pt>
+[41] <pictures/picturefile_2_5.png, id=672, 301.8778pt x 153.57375pt>
 File: pictures/picturefile_2_5.png Graphic file (type png)
 
-<use pictures/picturefile_2_5.png> [41 <./pictures/picturefile_2_5.png (PNG cop
-y)>] [42] [43]
-<pictures/picturefile_2_6.png, id=306, 297.36093pt x 106.14656pt>
+<use pictures/picturefile_2_5.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42] [43 <./pictures/picturefile_2_5.png (PNG copy)>] [44]
+<pictures/picturefile_2_6.png, id=696, 297.36093pt x 106.14656pt>
 File: pictures/picturefile_2_6.png Graphic file (type png)
 
-<use pictures/picturefile_2_6.png> [44 <./pictures/picturefile_2_6.png (PNG cop
-y)>] <pictures/picturefile_2_7.png, id=317, 297.36093pt x 112.92188pt>
+<use pictures/picturefile_2_6.png> [45 <./pictures/picturefile_2_6.png (PNG cop
+y)>] <pictures/picturefile_2_7.png, id=707, 297.36093pt x 112.92188pt>
 File: pictures/picturefile_2_7.png Graphic file (type png)
 
 <use pictures/picturefile_2_7.png>
@@ -996,12 +998,7 @@ Missing character: There is no х in font cmr8!
 Missing character: There is no х in font cmr8!
 Missing character: There is no х in font cmr8!
 Missing character: There is no х in font cmr8!
-[45 <./pictures/picturefile_2_7.png (PNG copy)>]
-
-LaTeX Warning: Citation `literature_golshtein_1' on page 46 undefined on input 
-line 295.
-
-[46]
+[46 <./pictures/picturefile_2_7.png (PNG copy)>] [47]
 Overfull \hbox (2.85533pt too wide) in paragraph at lines 329--329
  |[]\T2A/cmr/bx/n/10 Открытые транс-порт-ные за-да-чи с нерав-но-прав-ны-ми пун
 к-
@@ -1010,12 +1007,7 @@ Overfull \hbox (2.85533pt too wide) in paragraph at lines 329--329
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47] [48]
-
-LaTeX Warning: Citation `literature_golshtein_1' on page 49 undefined on input 
-line 404.
-
-[49]
+[48] [49] [50]
 Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
@@ -1025,11 +1017,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-[50])
+[51])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-[52]
+ [52]
+[53]
 \openout2 = `chapter_3.aux'.
 
  (./chapter_3.tex
@@ -1042,10 +1034,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[53
+[54
 
 
-] [54] [55]
+] [55] [56]
 Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
@@ -1060,7 +1052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-[56] <pictures/picturefile_3_1.jpg, id=400, 786.94pt x 433.62pt>
+[57] <pictures/picturefile_3_1.jpg, id=784, 786.94pt x 433.62pt>
 File: pictures/picturefile_3_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_3_1.jpg>
@@ -1072,7 +1064,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
-[57] [58 <./pictures/picturefile_3_1.jpg>]
+[58] [59 <./pictures/picturefile_3_1.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
@@ -1082,10 +1074,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
-[59] <pictures/picturefile_3_2.jpg, id=415, 716.6775pt x 506.89375pt>
+[60] <pictures/picturefile_3_2.jpg, id=798, 716.6775pt x 506.89375pt>
 File: pictures/picturefile_3_2.jpg Graphic file (type jpg)
 
-<use pictures/picturefile_3_2.jpg> [60 <./pictures/picturefile_3_2.jpg>]
+<use pictures/picturefile_3_2.jpg> [61 <./pictures/picturefile_3_2.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 463.
@@ -1102,7 +1094,7 @@ Overfull \hbox (4.41293pt too wide) in paragraph at lines 477--478
 аб-ли-ца, ана-ло-гич-ная симплекс-
  []
 
-[61]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
@@ -1138,9 +1130,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 554--556
 
  []
 
-[62]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
+ []
+
+
+Overfull \hbox (1.38422pt too wide) in paragraph at lines 560--561
+[]\T2A/cmr/bx/n/8 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 3.1. \T2A/cmr/m/n/8 Ес-ли п
+сев-до-план за-да-чи ли-ней-но-го про-
  []
 
 
@@ -1154,11 +1152,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--563
  []
 
 
+Overfull \hbox (1.38422pt too wide) in paragraph at lines 564--565
+[]\T2A/cmr/bx/n/8 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 3.2. \T2A/cmr/m/n/8 Ес-ли п
+сев-до-план за-да-чи ли-ней-но-го про-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
-[63]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
@@ -1178,7 +1182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--579
 
  []
 
-[64]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 626--628
 
  []
@@ -1245,7 +1249,7 @@ Missing character: There is no м in font cmr8!
 Missing character: There is no у in font cmr8!
 Missing character: There is no м in font cmr8!
 Missing character: There is no а in font cmr8!
-[65] [66]
+[66] [67]
 Overfull \hbox (4.37224pt too wide) in paragraph at lines 713--714
 \OML/cmm/m/it/8 A\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ^^N\OT1/cmr/m/n/8 )\OML/cmm/m/
 it/8 ; []\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ^^N\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 ; [
@@ -1254,15 +1258,7 @@ it/8 ; []\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ^^N\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 ; [
 mr/m/n/8 -окрестностей: 
  []
 
-[67]
-
-LaTeX Warning: Citation `literature_tihonov' on page 68 undefined on input line
- 742.
-
-
-LaTeX Warning: Citation `literature_ashmanov_1981' on page 68 undefined on inpu
-t line 742.
-
+[68]
 
 LaTeX Warning: Command \cyrd invalid in math mode on input line 744.
 
@@ -1315,7 +1311,10 @@ Overfull \hbox (2.1155pt too wide) in paragraph at lines 752--753
 ][] >
  []
 
-[68] [69]
+[69]
+Underfull \vbox (badness 3396) has occurred while \output is active []
+
+ [70]
 Overfull \hbox (3.37173pt too wide) detected at line 878
 \OML/cmm/m/it/8 z \OT1/cmr/m/n/8 = 27\OML/cmm/m/it/8 x[] \OT1/cmr/m/n/8 + 10\OM
 L/cmm/m/it/8 x[] \OT1/cmr/m/n/8 + 15\OML/cmm/m/it/8 x[] \OT1/cmr/m/n/8 + 28\OML
@@ -1367,6 +1366,9 @@ Underfull \hbox (badness 1953) in paragraph at lines 958--960
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
 Overfull \hbox (28.35794pt too wide) detected at line 964
 \OML/cmm/m/it/8 z \OT1/cmr/m/n/8 = \OMS/cmsy/m/n/8 ^^@\OML/cmm/m/it/8 x[] \OMS/
 cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 7\OML/cmm/m/it/8 x[] \OT1/cmr/m/n/8 + 4\OML/cmm/m
@@ -1386,38 +1388,29 @@ Underfull \hbox (badness 1354) in paragraph at lines 973--975
 OT1/cmr/m/n/8 75$\T2A/cmr/m/n/8 , точ-ка max
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70])
-[71]
+) [72]
 \openout2 = `chapter_4.aux'.
 
- (./chapter_4.tex [72
+ (./chapter_4.tex [73
 
 
 ]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73]
+[74]
 Overfull \hbox (0.3844pt too wide) in paragraph at lines 97--97
  |[]\T2A/cmr/bx/n/10 Понятие сме-шан-ной стра-те-гии. Сед-ло-вая точ-ка иг-ры в
  сме-
  []
 
-[74]
-
-LaTeX Warning: Citation `literature_neiman' on page 75 undefined on input line 
-162.
-
-
+[75]
 Overfull \hbox (15.70308pt too wide) in paragraph at lines 162--163
 []\T2A/cmr/m/n/10 Следующая тео-ре-ма до-ка-за-на аме-ри-кан-ским ма-те-ма-ти-к
 ом Фон-Нейманом
  []
 
-[75] [76]
+[76] [77]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 224.
@@ -1445,14 +1438,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77] <pictures/picturefile_4_1.jpg, id=550, 328.22626pt x 233.37187pt>
+[78] <pictures/picturefile_4_1.jpg, id=928, 328.22626pt x 233.37187pt>
 File: pictures/picturefile_4_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_4_1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78]
+[79]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 424.
 
@@ -1467,12 +1460,12 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 424.
 LaTeX Font Warning: Command \normalsize invalid in math mode on input line 424.
 
 
-[79 <./pictures/picturefile_4_1.jpg>] [80] [81] [82]
+[80 <./pictures/picturefile_4_1.jpg>] [81] [82] [83]
 Overfull \hbox (3.72131pt too wide) in paragraph at lines 599--599
 []|\T2A/cmr/bx/n/10 III| 
  []
 
-[83] [84] [85]
+[84] [85] [86]
 Overfull \hbox (6.828pt too wide) in paragraph at lines 650--651
 []\T2A/cmr/m/n/10 Бесконечная иг-ра на-зы-ва-ет-ся ан-та-го-ни-сти-че-ской, ес-
 ли a$[]$(\T2A/cmr/m/it/10 x\T2A/cmr/m/n/10 ,\T2A/cmr/m/it/10 y\T2A/cmr/m/n/10 )
@@ -1480,16 +1473,7 @@ Overfull \hbox (6.828pt too wide) in paragraph at lines 650--651
 0 )
  []
 
-[86]
-
-LaTeX Warning: Citation `literature_krushevsky' on page 87 undefined on input l
-ine 699.
-
-
-LaTeX Warning: Citation `literature_neiman' on page 87 undefined on input line 
-699.
-
-[87]
+[87] [88]
 Overfull \hbox (2.17558pt too wide) in paragraph at lines 712--712
 []|\T2A/cmr/m/it/10 П$[]$| 
  []
@@ -1529,11 +1513,15 @@ Overfull \hbox (2.17558pt too wide) in paragraph at lines 728--728
 []|\T2A/cmr/m/it/10 П$[]$| 
  []
 
-[88] [89] [90]
+
+Underfull \vbox (badness 3128) has occurred while \output is active []
+
+ [89]
+[90] [91]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91])
-[92]
+ [92])
+[93]
 \openout2 = `chapter_5.aux'.
 
  (./chapter_5.tex
@@ -1541,25 +1529,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[93
+[94
 
 
-]
-Underfull \vbox (badness 1668) has occurred while \output is active []
-
- [94]
-[95] [96]
+] [95] [96] [97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [98]
 Overfull \hbox (13.92076pt too wide) in paragraph at lines 221--223
 []\T2A/cmr/m/it/10 Задача о ран-це. \T2A/cmr/m/n/10 Име-ет-ся век-тор огра-ни-ч
 ен-ных ре-сур-сов $[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 b[];
  b[]; :::; b[]\OMS/cmsy/m/n/10 g$\T2A/cmr/m/n/10 ,
  []
 
-[98] [99]pdfTeX warning (ext4): destination with the same identifier (name{equa
-tion.5.1}) has been already used, duplicate ignored
+[99] [100]pdfTeX warning (ext4): destination with the same identifier (name{equ
+ation.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.271 \begin{equation}
@@ -1578,7 +1562,7 @@ er (name{equation.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.271 \begin{equation}
-                       [100]pdfTeX warning (ext4): destination with the same id
+                       [101]pdfTeX warning (ext4): destination with the same id
 entifier (name{equation.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1618,7 +1602,7 @@ er (name{equation.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.293 \begin{equation}
-                       [101]
+                       [102]
 Overfull \hbox (7.92465pt too wide) in paragraph at lines 299--301
 \T2A/cmr/m/n/10 сле-до-ва-тель-но-сти ите-ра-ций, каж-дая из ко-то-рых вклю-ча-
 ет сле-ду-ю-щие пунк-
@@ -1627,12 +1611,12 @@ Overfull \hbox (7.92465pt too wide) in paragraph at lines 299--301
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
-[103]
+ [103]
+[104]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[104] [105]pdfTeX warning (ext4): destination with the same identifier (name{eq
+[105] [106]pdfTeX warning (ext4): destination with the same identifier (name{eq
 uation.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1655,25 +1639,25 @@ l.504 \begin{equation}
                       
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
- [106]
+ [107]
 Overfull \hbox (0.29129pt too wide) in paragraph at lines 557--558
 []\T2A/cmr/m/n/10 Отбрасывая усло-вия це-ло-чис-лен-но-сти, по-лу-ча-ем сле-ду-
 ю-щую сим-плекс
  []
 
-[107] [108] <pictures/picturefile_5_1.png, id=766, 179.16937pt x 126.4725pt>
+[108] [109] <pictures/picturefile_5_1.png, id=1138, 179.16937pt x 126.4725pt>
 File: pictures/picturefile_5_1.png Graphic file (type png)
 
 <use pictures/picturefile_5_1.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[109]
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 661--663
 
  []
 
-[110 <./pictures/picturefile_5_1.png>]
+[111 <./pictures/picturefile_5_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
@@ -1681,7 +1665,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
 Underfull \vbox (badness 1127) has occurred while \output is active []
 
- [111]
+ [112]
 Underfull \hbox (badness 10000) in paragraph at lines 756--757
 
  []
@@ -1691,7 +1675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 772--773
 
  []
 
-[112]
+[113]
 Underfull \hbox (badness 10000) in paragraph at lines 787--788
 
  []
@@ -1706,16 +1690,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
 
-) [113]
+) [114]
 \openout2 = `chapter_6.aux'.
 
- (./chapter_6.tex [114
+ (./chapter_6.tex [115
 
 
-] [115]
+]
+Overfull \hbox (1.7684pt too wide) in paragraph at lines 51--52
+[]\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 6.1. \T2A/cmr/m/n/10 Ло-ка
+ль-ным ми-ни-му-мом за-
+ []
+
+[116]
 Overfull \hbox (1.53987pt too wide) in paragraph at lines 65--66
 []\T2A/cmr/m/n/10 Решением  за-да-чи нели-ней-но-го про-грам-ми-ро-ва-ния яв-ля
 -ет-ся точ-ка  гло-
+ []
+
+
+Overfull \hbox (4.5455pt too wide) in paragraph at lines 68--69
+[]\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 6.3. \T2A/cmr/m/n/10 За-да
+-ча   на  ми-ни-мум   нели-
  []
 
 
@@ -1724,166 +1720,25 @@ Overfull \hbox (2.65071pt too wide) in paragraph at lines 71--72
 я од-но-экс-тре-маль-
  []
 
-[116] [117] [118] [119]
+[117] [118] [119] [120]
 
 LaTeX Warning: Command \CYRA invalid in math mode on input line 238.
 
 Missing character: There is no А in font cmr10!
-
-Overfull \hbox (7.56566pt too wide) in paragraph at lines 241--242
-\T2A/cmr/m/n/10 ми-ни-мум. Ес-ли же эти соб-ствен-ные чис-ла от-ри-ца-тель-ны, 
-то $[]\OML/cmm/m/it/10 x[]; x[]; [] ; x[][]$
- []
-
-[120] [121] [122]
+[121] [122] [123]
 Overfull \hbox (6.20905pt too wide) in paragraph at lines 328--330
 \T2A/cmr/m/n/10 Приращения $\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x[]$ \T2A/cmr/m/
 n/10 в си-лу со-от-но-ше-ний (3.1) удо-вле-тво-ря-ют ра-вен-ству $\OMS/cmsy/m/n
 /10 r\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 =
  []
 
-[123] [124]
-
-LaTeX Warning: Reference `equation_6_3' on page 125 undefined on input line 413
-.
-
-
-LaTeX Warning: Reference `equation_6_4' on page 125 undefined on input line 413
-.
-
-[125]
-
-LaTeX Warning: Reference `equation_6_3' on page 126 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `equation_6_3' on page 126 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `equation_6_4' on page 126 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `equation_6_2' on page 126 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `equation_6_3' on page 126 undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `equation_6_2' on page 126 undefined on input line 433
-.
-
-
-LaTeX Warning: Reference `equation_6_4' on page 126 undefined on input line 433
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_7' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_7' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_7' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_5' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 126 undefined on input line 455
-.
-
-
-LaTeX Warning: Reference `equation_6_7' on page 126 undefined on input line 455
-.
-
-[126]
-
-LaTeX Warning: Reference `equation_6_5' on page 127 undefined on input line 476
-.
-
-
-LaTeX Warning: Reference `equation_6_6' on page 127 undefined on input line 476
-.
-
-
-LaTeX Warning: Reference `equation_6_8' on page 127 undefined on input line 476
-.
-
-
-LaTeX Warning: Reference `equation_6_7' on page 127 undefined on input line 476
-.
-
-[127]
-Underfull \vbox (badness 2894) has occurred while \output is active []
-
- [128]
-
-LaTeX Warning: Reference `equation_6_9' on page 129 undefined on input line 567
-.
-
-
+[124] [125] [126] [127] [128] [129]
 Overfull \hbox (1.53877pt too wide) in paragraph at lines 572--573
 []\T2A/cmr/m/n/10 Задача дробно-линейного про-грам-ми-ро-ва-ния (ДЛП) мо-жет бы
 ть сфор-
  []
 
-[129] [130]
+[130] [131]
 Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
@@ -1900,7 +1755,7 @@ Overfull \hbox (1.82533pt too wide) in paragraph at lines 669--670
 м в 1.6. Для
  []
 
-[131] [132]
+[132] [133]
 Overfull \hbox (2.65208pt too wide) in paragraph at lines 781--782
 []\T2A/cmr/bx/n/10 1. Ме-то-ды без-услов-ной оп-ти-ми-за-ции. Ме-тод гра-ди-ет-
 но-го спус-
@@ -1912,7 +1767,7 @@ Overfull \hbox (0.70674pt too wide) in paragraph at lines 796--797
 з-рас-та-ния функ-
  []
 
-[133] [134]
+[134] [135]
 Overfull \hbox (5.14294pt too wide) in paragraph at lines 823--824
 []\T2A/cmr/m/n/10 В \T2A/cmr/bx/it/10 ме-то-де Ньютона-Рафсона  \T2A/cmr/m/n/10
  при-бли-жен-но ре-ша-ет-ся си-сте-ма урав-
@@ -1926,12 +1781,13 @@ ML/cmm/m/it/10 f\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; []$ \T2A/cmr/m/n/10 рас-с
 10 ^^B$\T2A/cmr/m/n/10 1,
  []
 
-[135]
+[136] [137] [138]
+Overfull \hbox (11.78477pt too wide) in paragraph at lines 915--916
+[]\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 6.6. \T2A/cmr/m/it/10 Па-р
+е-тов-ским ре-ше-ни-ем мно-
+ []
 
-LaTeX Warning: Citation `literature_lyashenko' on page 136 undefined on input l
-ine 899.
-
-[136] [137] <pictures/picturefile_6_1.png, id=917, 878.53218pt x 600.74437pt>
+<pictures/picturefile_6_1.png, id=1312, 878.53218pt x 600.74437pt>
 File: pictures/picturefile_6_1.png Graphic file (type png)
 
 <use pictures/picturefile_6_1.png>
@@ -1943,7 +1799,7 @@ LaTeX Warning: Command \CYRV invalid in math mode on input line 922.
 
 Missing character: There is no А in font cmr10!
 Missing character: There is no В in font cmr10!
-[138 <./pictures/picturefile_6_1.png>] [139]
+[139 <./pictures/picturefile_6_1.png>] [140]
 Overfull \hbox (8.21182pt too wide) in paragraph at lines 947--948
 \T2A/cmr/m/n/10 услов-ный экс-тре-мум? В чем за-клю-ча-ют-ся необ-хо-ди-мые усл
 о-вия услов-
@@ -1955,7 +1811,7 @@ Overfull \hbox (19.73788pt too wide) in paragraph at lines 966--967
 е-то-да Ньютона-
  []
 
-[140] [141]
+[141] [142]
 Overfull \hbox (16.59674pt too wide) detected at line 1028
 []
  []
@@ -2018,133 +1874,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 1106--1156
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142]
+ [143]
 Underfull \hbox (badness 10000) in paragraph at lines 1157--1159
 
  []
 
-[143]
+[144]
 Underfull \hbox (badness 10000) in paragraph at lines 1233--1237
 
  []
 
-[144]) [145]
+[145]) [146]
 \openout2 = `chapter_7.aux'.
 
  (./chapter_7.tex
-
-LaTeX Warning: Reference `picture_7_1' on page 146 undefined on input line 7.
-
-<pictures/picturefile_7_1.png, id=969, 198.7425pt x 167.12437pt>
+<pictures/picturefile_7_1.png, id=1365, 198.7425pt x 167.12437pt>
 File: pictures/picturefile_7_1.png Graphic file (type png)
 
-<use pictures/picturefile_7_1.png> [146
+<use pictures/picturefile_7_1.png> [147
 
 
  <./pictures/picturefile_7_1.png>]
-
-LaTeX Warning: Reference `equation_7_2' on page 147 undefined on input line 33.
-
-
-
-LaTeX Warning: Reference `equation_7_3' on page 147 undefined on input line 33.
-
-
-
-LaTeX Warning: Reference `equation_7_4' on page 147 undefined on input line 33.
-
-
-
 Overfull \hbox (4.5958pt too wide) in paragraph at lines 32--36
 []\T2A/cmr/m/n/10 Обобщая рас-смат-ри-ва-е-мый при-мер, ука-жем об-щее ма-те-ма
 -ти-че-ское опи-
  []
 
-[147]
+[148]
 Overfull \hbox (1.05171pt too wide) in paragraph at lines 37--39
 []\T2A/cmr/m/n/10 Управлением мы усло-вим-ся на-зы-вать по-сле-до-ва-тель-ность
  то-чек $[]\OT1/cmr/m/n/10 (0)\OML/cmm/m/it/10 ; [][] 
  []
 
 
-LaTeX Warning: Reference `equation_7_5' on page 148 undefined on input line 46.
-
-
-
-LaTeX Warning: Reference `equation_7_5' on page 148 undefined on input line 46.
-
-
-
-LaTeX Warning: Reference `equation_7_3' on page 148 undefined on input line 47.
-
-
-
-Overfull \hbox (11.84291pt too wide) in paragraph at lines 44--48
-[]\T2A/cmr/m/n/10 Соотношение ([]) ча-сто на-зы-ва-ют за-ко-ном дви-же-ния дис-
-крет-но-го управ-
+Overfull \hbox (4.8941pt too wide) in paragraph at lines 44--48
+\T2A/cmr/m/n/10 ни-ям ([][]7.5[][]) на-зы-ва-ют со-от-вет-ству-ю-щей на-чаль-но
+-му со-сто-я-нию $[]\OT1/cmr/m/n/10 (0)$ \T2A/cmr/m/n/10 и управ-
  []
 
-
-Overfull \hbox (4.62654pt too wide) in paragraph at lines 44--48
-\T2A/cmr/m/n/10 ля-е-мо-го объ-ек-та. Тра-ек-то-рию объ-ек-та, удо-вле-тво-ря-ю
--щую урав-не-ни-ям ([])
- []
-
-
-LaTeX Warning: Reference `equation_7_5' on page 148 undefined on input line 50.
-
-
-
-LaTeX Warning: Reference `equation_7_6' on page 148 undefined on input line 50.
-
-
-
-LaTeX Warning: Reference `equation_7_5' on page 148 undefined on input line 50.
-
-
-
-LaTeX Warning: Reference `equation_7_5' on page 148 undefined on input line 50.
-
-
-[148]
-
-LaTeX Warning: Reference `equation_7_5' on page 149 undefined on input line 55.
-
-
-
-LaTeX Warning: Reference `equation_7_6' on page 149 undefined on input line 55.
-
-
-
-LaTeX Warning: Reference `equation_7_7' on page 149 undefined on input line 55.
-
-
-
-LaTeX Warning: Reference `equation_7_7' on page 149 undefined on input line 56.
-
-
-
-LaTeX Warning: Reference `equation_7_7' on page 149 undefined on input line 57.
-
-
-
-LaTeX Warning: Reference `equation_7_7' on page 149 undefined on input line 57.
-
-
-
-LaTeX Warning: Reference `equation_7_7' on page 149 undefined on input line 61.
-
-
-[149]
-
-LaTeX Warning: Reference `picture_7_2' on page 150 undefined on input line 66.
-
-
+[149] [150]
 Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
-[150] <pictures/picturefile_7_2.png, id=1004, 228.855pt x 114.4275pt>
+[151] <pictures/picturefile_7_2.png, id=1417, 228.855pt x 114.4275pt>
 File: pictures/picturefile_7_2.png Graphic file (type png)
 
 <use pictures/picturefile_7_2.png>
@@ -2160,33 +1933,14 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 76.
 Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
-
-LaTeX Warning: Reference `picture_7_3' on page 151 undefined on input line 82.
-
-<pictures/picturefile_7_3.png, id=1005, 200.24812pt x 135.50626pt>
+<pictures/picturefile_7_3.png, id=1419, 200.24812pt x 135.50626pt>
 File: pictures/picturefile_7_3.png Graphic file (type png)
 
 <use pictures/picturefile_7_3.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[151 <./pictures/picturefile_7_2.png>]
-
-LaTeX Warning: Reference `equation_7_9' on page 152 undefined on input line 112
-.
-
-
-LaTeX Warning: Reference `equation_7_8' on page 152 undefined on input line 112
-.
-
-
-LaTeX Warning: Reference `equation_7_10' on page 152 undefined on input line 11
-2.
-
-
-LaTeX Warning: Reference `equation_7_11' on page 152 undefined on input line 11
-2.
-
+[152 <./pictures/picturefile_7_2.png>]
 
 LaTeX Warning: Command \CYRK invalid in math mode on input line 113.
 
@@ -2195,12 +1949,7 @@ Missing character: There is no К in font cmr10!
 LaTeX Warning: Command \CYRP invalid in math mode on input line 113.
 
 Missing character: There is no П in font cmr10!
-[152 <./pictures/picturefile_7_3.png>]
-
-LaTeX Warning: Reference `equation_7_7' on page 153 undefined on input line 128
-.
-
-[153]
+[153 <./pictures/picturefile_7_3.png>] [154]
 Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
@@ -2211,19 +1960,15 @@ Overfull \hbox (2.6441pt too wide) in paragraph at lines 142--143
 о-сто-я-ние $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 ^^@
  []
 
-[154] [155] [156]
-
-LaTeX Warning: Reference `picture_7_4' on page 157 undefined on input line 269.
-
-
-<pictures/picturefile_7_4.png, id=1042, 216.81pt x 97.86563pt>
+[155] [156] [157]
+<pictures/picturefile_7_4.png, id=1460, 216.81pt x 97.86563pt>
 File: pictures/picturefile_7_4.png Graphic file (type png)
 
 <use pictures/picturefile_7_4.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[157]
+[158]
 
 LaTeX Warning: Command \cyrp invalid in math mode on input line 298.
 
@@ -2236,41 +1981,36 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 298.
 Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
-[158 <./pictures/picturefile_7_4.png (PNG copy)>]
-
-LaTeX Warning: Reference `picture_7_5' on page 159 undefined on input line 368.
-
-
-
+[159 <./pictures/picturefile_7_4.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-[159] <pictures/picturefile_7_5.png, id=1058, 209.28188pt x 140.02313pt>
+[160] <pictures/picturefile_7_5.png, id=1476, 209.28188pt x 140.02313pt>
 File: pictures/picturefile_7_5.png Graphic file (type png)
 
 <use pictures/picturefile_7_5.png>
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 397.
 
-[160 <./pictures/picturefile_7_5.png>] [161]
+[161 <./pictures/picturefile_7_5.png>] [162]
 Underfull \hbox (badness 10000) in paragraph at lines 471--473
 
  []
 
-[162]
+[163]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [163]
-[164]
+ [164]
+[165]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165]
+ [166]
 Underfull \hbox (badness 10000) in paragraph at lines 695--697
 
  []
 
-[166]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 709--710
 
  []
@@ -2280,7 +2020,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 711--712
 
  []
 
-[167]
+[168]
 Overfull \hbox (1.64224pt too wide) in paragraph at lines 713--714
 \T2A/cmr/m/n/10 обо-ру-до-ва-ния. Объ-ем од-ной еди-ни-цы обо-ру-до-ва-ния i-го
  ти-па (i=1,2,3,...,$\OML/cmm/m/it/10 N$\T2A/cmr/m/n/10 )
@@ -2292,43 +2032,33 @@ Overfull \hbox (4.35237pt too wide) in paragraph at lines 717--718
 -ность об-ра-бот-ки де-та-лей в усло-
  []
 
-[168]
+[169]
 Overfull \hbox (12.40596pt too wide) in paragraph at lines 748--749
 []\T2A/cmr/bx/n/10 7.6. \T2A/cmr/m/n/10 Ре-шить ме-то-дом ди-на-ми-че-ско-го пр
 о-грам-ми-ро-ва-ния ли-ней-ную транс-
  []
 
-) [169]
+) [170]
 \openout2 = `chapter_8.aux'.
 
- (./chapter_8.tex
-
-LaTeX Warning: Reference `picture_8_1' on page 170 undefined on input line 9.
-
-[170
+ (./chapter_8.tex [171
 
 
-] <pictures/picturefile_8_1.png, id=1116, 161.10187pt x 137.7647pt>
+]
+<pictures/picturefile_8_1.png, id=1533, 161.10187pt x 137.7647pt>
 File: pictures/picturefile_8_1.png Graphic file (type png)
 
 <use pictures/picturefile_8_1.png>
-<pictures/picturefile_8_2.png, id=1117, 161.10187pt x 137.7647pt>
+<pictures/picturefile_8_2.png, id=1534, 161.10187pt x 137.7647pt>
 File: pictures/picturefile_8_2.png Graphic file (type png)
 
-<use pictures/picturefile_8_2.png>
-
-LaTeX Warning: Reference `picture_8_2' on page 171 undefined on input line 30.
-
-[171 <./pictures/picturefile_8_1.png (PNG copy)> <./pictures/picturefile_8_2.pn
-g (PNG copy)>]
-<pictures/picturefile_8_3.png, id=1123, 266.49562pt x 146.79843pt>
+<use pictures/picturefile_8_2.png> [172 <./pictures/picturefile_8_1.png (PNG co
+py)> <./pictures/picturefile_8_2.png (PNG copy)>]
+<pictures/picturefile_8_3.png, id=1540, 266.49562pt x 146.79843pt>
 File: pictures/picturefile_8_3.png Graphic file (type png)
 
-<use pictures/picturefile_8_3.png>
-
-LaTeX Warning: Reference `picture_8_3' on page 172 undefined on input line 55.
-
-[172 <./pictures/picturefile_8_3.png (PNG copy)>] [173]
+<use pictures/picturefile_8_3.png> [173 <./pictures/picturefile_8_3.png (PNG co
+py)>] [174]
 Overfull \hbox (3.85416pt too wide) in paragraph at lines 77--79
 \T2A/cmr/m/it/10 Линейное век-тор-ное про-стран-ство $\OML/cmm/m/it/10 H$ \T2A/
 cmr/m/n/10 - это со-во-куп-ность эле-мен-тов $\OML/cmm/m/it/10 u; v; :::;$
@@ -2340,31 +2070,13 @@ Overfull \hbox (1.40837pt too wide) in paragraph at lines 77--79
 mr/m/it/10 ли-ней-ные опе-ра-ции \T2A/cmr/m/n/10 (сло-
  []
 
-[174]
+[175]
 Overfull \hbox (10.28773pt too wide) in paragraph at lines 121--124
 []\T2A/cmr/m/n/10 Элементы нор-ми-ро-ван-но-го про-стран-ства не обя-за-тель-но
  яв-ля-ют-ся функ-
  []
 
-[175]
-
-LaTeX Warning: Reference `equation_8_1' on page 176 undefined on input line 154
-.
-
-
-LaTeX Warning: Reference `equation_8_2' on page 176 undefined on input line 154
-.
-
-[176]
-
-LaTeX Warning: Reference `equation_8_1' on page 177 undefined on input line 159
-.
-
-
-LaTeX Warning: Reference `equation_8_2' on page 177 undefined on input line 171
-.
-
-
+[176] [177]
 Overfull \hbox (0.99902pt too wide) in paragraph at lines 173--174
 []\T2A/cmr/bx/n/10 Вариации функ-ци-о-на-ла выс-ших по-ряд-ков. До-ста-точ-ные 
 усло-
@@ -2376,44 +2088,21 @@ Overfull \hbox (3.83078pt too wide) in paragraph at lines 179--181
 д. по-ряд-ков. \T2A/cmr/m/n/10 (\T2A/cmr/m/it/10 крат-
  []
 
-[177]
-
-LaTeX Warning: Reference `equation_8_3' on page 178 undefined on input line 205
-.
-
-
-Overfull \hbox (6.89304pt too wide) in paragraph at lines 205--206
-[]\T2A/cmr/m/n/10 При усло-ви-ях $\OT1/cmr/m/n/10 1[]$ \T2A/cmr/m/n/10 с уче-то
-м свой-ства ([]) по-лу-ча-ем оцен-ку $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 I \OM
-S/cmsy/m/n/10 ^^U []k\OML/cmm/m/it/10 ^^Nu\OMS/cmsy/m/n/10 k[] ^^@
- []
-
 [178]
-Overfull \hbox (5.14319pt too wide) in paragraph at lines 223--226
-[]\T2A/cmr/bx/n/10 Теорема 8.3. \T2A/cmr/m/it/10 Ес-ли эле-мент $\OML/cmm/m/it/
-10 u[]$ \T2A/cmr/m/it/10 до-став-ля-ет ло-каль-ный ми-ни-мум (мак-
+Overfull \hbox (13.9625pt too wide) in paragraph at lines 194--195
+\T2A/cmr/m/it/10 нар-ным эле-мен-том функ-ци-о-на-ла $\OML/cmm/m/it/10 I\OMS/cm
+sy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g$\T2A/cmr/m/it/10 . То-гда спра-
+вед-ли-вы сле-ду-ю-щие утвер-
  []
 
 
-Overfull \hbox (1.23058pt too wide) in paragraph at lines 223--226
-\T2A/cmr/m/it/10 си-мум) функ-ци-о-на-лу $\OML/cmm/m/it/10 I\OMS/cmsy/m/n/10 f\
-OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g$\T2A/cmr/m/it/10 , то для всех воз-мож-ных 
-$\OML/cmm/m/it/10 ^^Nu$ \T2A/cmr/m/it/10 вы-пол-ня-ет-ся нера-
+Overfull \hbox (8.80923pt too wide) in paragraph at lines 205--206
+[]\T2A/cmr/m/n/10 При усло-ви-ях $\OT1/cmr/m/n/10 1[]$ \T2A/cmr/m/n/10 с уче-то
+м свой-ства ([][]8.3[][]) по-лу-ча-ем оцен-ку $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it
+/10 I \OMS/cmsy/m/n/10 ^^U []k\OML/cmm/m/it/10 ^^Nu\OMS/cmsy/m/n/10 k[] ^^@
  []
 
-[179]
-Overfull \hbox (0.87459pt too wide) in paragraph at lines 243--244
-[]\T2A/cmr/bx/n/10 Определение 8.3. \T2A/cmr/m/n/10 Функ-ци-о-нал $\OML/cmm/m/i
-t/10 I\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g$ \T2A/cmr/m/n/10 в
- ли-ней-ном век-тор-ном про-стран-
- []
-
-[180] [181] [182]
-
-LaTeX Warning: Reference `equation_8_4' on page 183 undefined on input line 307
-.
-
-
+[179] [180] [181] [182] [183]
 Overfull \hbox (14.12741pt too wide) in paragraph at lines 307--308
 []\T2A/cmr/bx/n/10 Уравнение Эй-ле-ра. \T2A/cmr/m/n/10 Поль-зу-ясь диф-фе-рен-ц
 и-ру-е-мо-стью функ-ции $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^
@@ -2429,89 +2118,30 @@ OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$\T2A
 /cmr/m/n/10 .
  []
 
-
-LaTeX Warning: Reference `equation_8_4' on page 183 undefined on input line 318
-.
-
-[183]
-
-LaTeX Warning: Reference `equation_8_5' on page 184 undefined on input line 340
-.
-
-
-LaTeX Warning: Reference `equation_8_5' on page 184 undefined on input line 343
-.
-
-
-LaTeX Warning: Reference `equation_8_5' on page 184 undefined on input line 343
-.
-
-
-LaTeX Warning: Reference `equation_8_4' on page 184 undefined on input line 343
-.
-
-
-LaTeX Warning: Reference `equation_8_4' on page 184 undefined on input line 343
-.
-
-
-LaTeX Warning: Reference `equation_8_5' on page 184 undefined on input line 343
-.
-
-
-Overfull \hbox (3.46037pt too wide) in paragraph at lines 343--344
-[]\T2A/cmr/m/n/10 Дифференциальное урав-не-ние ([]) на-зы-ва-ет-ся \T2A/cmr/m/i
-t/10 урав-не-ни-ем Эй-ле-ра про-
- []
-
-
-LaTeX Warning: Reference `equation_8_5' on page 184 undefined on input line 352
-.
-
 [184]
-
-LaTeX Warning: Reference `equation_8_5' on page 185 undefined on input line 365
-.
-
-
-LaTeX Warning: Reference `equation_8_5' on page 185 undefined on input line 371
-.
-
-
-Overfull \hbox (9.66052pt too wide) in paragraph at lines 374--375
-\T2A/cmr/m/n/10 удо-вле-тво-ря-ю-щую кра-е-вым усло-ви-ям $\OML/cmm/m/it/10 u\O
-T1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1) = 1$\T2A/cmr/m/n/10 , $\O
-ML/cmm/m/it/10 u\OT1/cmr/m/n/10 (1) = 0$\T2A/cmr/m/n/10 . Здесь $\OML/cmm/m/it/
-10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; u; u[]\OT1/cmr/m/n/10 ) =
+Overfull \hbox (5.37657pt too wide) in paragraph at lines 343--344
+[]\T2A/cmr/m/n/10 Дифференциальное урав-не-ние ([][]8.5[][]) на-зы-ва-ет-ся \T2
+A/cmr/m/it/10 урав-не-ни-ем Эй-ле-ра про-
  []
 
-[185]
-Overfull \hbox (3.36221pt too wide) in paragraph at lines 385--386
-[]\T2A/cmr/bx/n/10 Пример 8.10.  \T2A/cmr/m/n/10 Най-ти экс-тре-ма-ли функ-ци-о
--на-ла $\OML/cmm/m/it/10 I\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 
-g \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 u[]dx$\T2A/cmr/m/n/10 ,
+[185] [186]
+Overfull \hbox (13.49815pt too wide) in paragraph at lines 391--392
+\T2A/cmr/m/n/10 лен-но-го на глад-ких функ-ци-ях квад-ра-тич-но-го функ-ци-о-на
+-ла $\OML/cmm/m/it/10 I\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g  
+\OT1/cmr/m/n/10 =  [](\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1
+/cmr/m/n/10 )\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 +
+ []
+
+[187] [188]
+Overfull \hbox (31.57054pt too wide) in paragraph at lines 435--438
+\T2A/cmr/m/it/10 (мак-си-мум), то при всех $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10
+ 2 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$ \T2A/cmr/m/it/10 вы
+-пол-не-но нера-вен-ство $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ x; u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; u
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U
  []
 
 
-Overfull \hbox (9.06776pt too wide) in paragraph at lines 391--392
-\T2A/cmr/m/n/10 глад-ких функ-ци-ях квад-ра-тич-но-го функ-ци-о-на-ла $\OML/cmm
-/m/it/10 I\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g  \OT1/cmr/m/n/
-10 =  [](\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )
-\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 )\OML/cmm/m/i
-t/10 dx$\T2A/cmr/m/n/10 ,
- []
-
-[186]
-
-LaTeX Warning: Reference `equation_8_4' on page 187 undefined on input line 401
-.
-
-
-LaTeX Warning: Reference `equation_8_4' on page 187 undefined on input line 401
-.
-
-[187]
 Overfull \hbox (3.39241pt too wide) in paragraph at lines 440--442
 []$\OT1/cmr/m/n/10 2[]$\T2A/cmr/m/it/10 . Ес-ли функ-ция $\OML/cmm/m/it/10 u \O
 T1/cmr/m/n/10 = \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr
@@ -2525,133 +2155,35 @@ OML/cmm/m/it/10 ^^Nu$\T2A/cmr/m/n/10 , что $\OML/cmm/m/it/10 ^^N[]I\OMS/cmsy/m/
 n/10 f\OML/cmm/m/it/10 u[]; ^^Nu\OMS/cmsy/m/n/10 g \OML/cmm/m/it/10 <
  []
 
-[188]
+[189]
 Overfull \hbox (0.64244pt too wide) in paragraph at lines 461--462
 []\T2A/cmr/bx/n/10 Задача на экс-тре-мум функ-ци-о-на-ла $\OML/cmm/m/it/10 I\OM
 S/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/
 n/10 )\OMS/cmsy/m/n/10 g$\T2A/cmr/bx/n/10 , за-ви-ся-ще-го от про-
  []
 
-[189]
+[190]
+Overfull \hbox (15.78813pt too wide) in paragraph at lines 492--494
+[]\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 8.7. \T2A/cmr/m/it/10 Ес-ли на-бор фун
+к-ций $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )
+$\T2A/cmr/m/it/10 , $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
+1/cmr/m/n/10 )$\T2A/cmr/m/it/10 ,$[]$, $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2
+ []
 
-LaTeX Warning: Reference `equation_8_6' on page 190 undefined on input line 476
-.
-
-
-LaTeX Warning: Reference `equation_8_8' on page 190 undefined on input line 493
-.
-
-[190] [191]
-
-LaTeX Warning: Reference `equation_8_9' on page 192 undefined on input line 539
-.
-
-
-LaTeX Warning: Reference `equation_8_10' on page 192 undefined on input line 53
-9.
-
-
-LaTeX Warning: Reference `equation_8_11' on page 192 undefined on input line 53
-9.
-
-
-Overfull \hbox (3.78566pt too wide) in paragraph at lines 538--540
+[191] [192]
+Overfull \hbox (5.70186pt too wide) in paragraph at lines 538--540
 \T2A/cmr/m/n/10 Последнее урав-не-ние на-зы-ва-ют урав-не-ни-ем Эй-ле-ра для фу
-нк-ци-о-на-ла ([]),
+нк-ци-о-на-ла ([][]8.9[][]),
  []
 
 
-Overfull \hbox (16.00737pt too wide) in paragraph at lines 538--540
-\T2A/cmr/m/n/10 смысл част-ных про-из-вод-ных $[]$, $[]$ в урав-не-нии ([]). На
--при-мер, производная
+Overfull \hbox (10.85616pt too wide) in paragraph at lines 543--544
+[]\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 8.15.  \T2A/cmr/m/n/10 Вы-пи-сать урав-не
+-ние Эйлера-Остроградского
  []
 
-
-Overfull \hbox (12.90965pt too wide) in paragraph at lines 538--540
-\T2A/cmr/m/n/10 бе-рет-ся при фик-си-ро-ван-ном $\OML/cmm/m/it/10 y$\T2A/cmr/m/
-n/10 , но с уче-том то-го, что в в ка-че-стве подставлены
- []
-
-
-LaTeX Warning: Reference `equation_8_9' on page 192 undefined on input line 541
-.
-
-
-LaTeX Warning: Reference `equation_8_10' on page 192 undefined on input line 54
-1.
-
-
-LaTeX Warning: Reference `equation_8_10' on page 192 undefined on input line 54
-1.
-
-
-Overfull \hbox (4.61589pt too wide) in paragraph at lines 543--544
-[]\T2A/cmr/bx/n/10 Пример 8.15.  \T2A/cmr/m/n/10 Вы-пи-сать урав-не-ние Эйлера-
-Остроградского для функ-
- []
-
-
-LaTeX Warning: Reference `equation_8_10' on page 192 undefined on input line 54
-5.
-
-[192]
-
-LaTeX Warning: Reference `equation_8_4' on page 193 undefined on input line 554
-.
-
-
-LaTeX Warning: Reference `equation_8_4' on page 193 undefined on input line 554
-.
-
-[193]
-
-LaTeX Warning: Reference `equation_8_12' on page 194 undefined on input line 57
-5.
-
-
-LaTeX Warning: Reference `equation_8_4' on page 194 undefined on input line 578
-.
-
-
-LaTeX Warning: Reference `equation_8_13' on page 194 undefined on input line 59
-4.
-
-[194]
-
-LaTeX Warning: Reference `equation_8_13' on page 195 undefined on input line 60
-1.
-
-
-LaTeX Warning: Reference `equation_8_14' on page 195 undefined on input line 60
-1.
-
-
-LaTeX Warning: Reference `equation_8_14' on page 195 undefined on input line 62
-3.
-
-[195]
-
-LaTeX Warning: Reference `equation_8_16' on page 196 undefined on input line 64
-3.
-
-
-LaTeX Warning: Reference `equation_8_16' on page 196 undefined on input line 64
-5.
-
-
-LaTeX Warning: Reference `equation_8_17' on page 196 undefined on input line 65
-4.
-
-
-LaTeX Warning: Reference `equation_8_17' on page 196 undefined on input line 65
-7.
-
-[196]
-
-LaTeX Warning: Reference `equation_8_8' on page 197 undefined on input line 677
-.
-
-
+[193] [194] [195] [196] [197]
 Overfull \hbox (19.0274pt too wide) in paragraph at lines 686--688
 \T2A/cmr/m/n/10 усло-ви-я-ми ча-сто на-зы-ва-ют \T2A/cmr/m/it/10 изо-пе-ри-мет-
 ри-че-ской. \T2A/cmr/m/n/10 По-стро-им функ-цию Лагран-
@@ -2666,30 +2198,6 @@ ML/cmm/m/it/10 ; [] ; m\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 на-зы-ва-ют мно-жи-те
  []
 
 
-LaTeX Warning: Reference `equation_8_8' on page 197 undefined on input line 695
-.
-
-
-LaTeX Warning: Reference `equation_8_18' on page 197 undefined on input line 69
-5.
-
-
-LaTeX Warning: Reference `equation_8_19' on page 197 undefined on input line 69
-5.
-
-
-LaTeX Warning: Reference `equation_8_20' on page 197 undefined on input line 70
-0.
-
-
-LaTeX Warning: Reference `equation_8_21' on page 197 undefined on input line 70
-3.
-
-
-LaTeX Warning: Reference `equation_8_19' on page 197 undefined on input line 70
-3.
-
-
 Overfull \hbox (0.16045pt too wide) in paragraph at lines 703--704
 []\T2A/cmr/m/n/10 При при-ме-не-нии тео-ре-мы 8.10 ис-ко-мые функ-ции $\OML/cmm
 /m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/1
@@ -2697,121 +2205,18 @@ Overfull \hbox (0.16045pt too wide) in paragraph at lines 703--704
 ] ; u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$
  []
 
-[197]
-
-LaTeX Warning: Reference `equation_8_21' on page 198 undefined on input line 71
-2.
-
-
-LaTeX Warning: Reference `equation_8_8' on page 198 undefined on input line 717
-.
-
-
-LaTeX Warning: Reference `equation_8_18' on page 198 undefined on input line 71
-7.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 198 undefined on input line 72
-2.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 198 undefined on input line 72
-2.
-
-
-LaTeX Warning: Reference `equation_8_8' on page 198 undefined on input line 722
-.
-
-
-LaTeX Warning: Reference `equation_8_18' on page 198 undefined on input line 72
-2.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 198 undefined on input line 72
-2.
-
-
-LaTeX Warning: Reference `equation_8_8' on page 198 undefined on input line 734
-.
-
-
-LaTeX Warning: Reference `equation_8_18' on page 198 undefined on input line 73
-4.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 198 undefined on input line 73
-4.
-
-
-LaTeX Warning: Reference `equation_8_23' on page 198 undefined on input line 73
-9.
-
-[198]
-
-LaTeX Warning: Reference `equation_8_24' on page 199 undefined on input line 74
-7.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 199 undefined on input line 74
-7.
-
-
-LaTeX Warning: Reference `equation_8_24' on page 199 undefined on input line 75
-6.
-
-
-LaTeX Warning: Reference `equation_8_22' on page 199 undefined on input line 75
-6.
-
+[198] [199]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 772.
 
-[199]
-
-LaTeX Warning: Citation `literature_kantorovich' on page 200 undefined on input
- line 781.
-
-
-LaTeX Warning: Citation `literature_mihlin_1970' on page 200 undefined on input
- line 781.
-
-
-LaTeX Warning: Citation `literature_mihlin_1966' on page 200 undefined on input
- line 781.
-
-[200]
-
-LaTeX Warning: Reference `equation_8_25' on page 201 undefined on input line 79
-7.
-
-
-LaTeX Warning: Reference `equation_8_26' on page 201 undefined on input line 80
-2.
-
-
-LaTeX Warning: Reference `equation_8_25' on page 201 undefined on input line 80
-2.
-
-
-LaTeX Warning: Reference `equation_8_26' on page 201 undefined on input line 80
-2.
-
-
+[200] [201]
 Overfull \hbox (3.32619pt too wide) in paragraph at lines 804--805
 []\T2A/cmr/m/n/10 Вопрос о схо-ди-мо-сти ми-ни-ми-зи-ру-ю-щей по-сле-до-ва-тель
 -но-сти $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
 0 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; n \OT1/cmr/m/n/10 =
  []
 
-
-LaTeX Warning: Reference `equation_8_26' on page 201 undefined on input line 81
-1.
-
-
-LaTeX Warning: Reference `equation_8_27' on page 201 undefined on input line 81
-1.
-
-[201]
+[202]
 Overfull \hbox (3.01103pt too wide) in paragraph at lines 818--820
 \T2A/cmr/m/it/10 стран-стве функ-ций $\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OM
 L/cmm/m/it/10 C[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$\T2A/c
@@ -2820,57 +2225,13 @@ mr/m/n/10 , удо-вле-тво-ря-ю-щих усло-ви-ям $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10
 cmm/m/it/10 b\OT1/cmr/m/n/10 ) =
  []
 
+[203] [204]
+Overfull \hbox (2.36934pt too wide) in paragraph at lines 912--913
+\T2A/cmr/m/n/10 бли-жен-но сво-дит ин-те-гри-ро-ва-ние урав-не-ния в част-ных п
+ро-из-вод-ных ([][]8.11[][])
+ []
 
-LaTeX Warning: Reference `equation_8_27' on page 202 undefined on input line 83
-5.
-
-
-LaTeX Warning: Reference `equation_8_30' on page 202 undefined on input line 84
-4.
-
-
-LaTeX Warning: Reference `equation_8_28' on page 202 undefined on input line 84
-4.
-
-
-LaTeX Warning: Reference `equation_8_26' on page 202 undefined on input line 84
-4.
-
-
-LaTeX Warning: Reference `equation_8_31' on page 202 undefined on input line 84
-7.
-
-[202]
-
-LaTeX Warning: Citation `literature_kantorovich' on page 203 undefined on input
- line 882.
-
-
-LaTeX Warning: Reference `equation_8_9' on page 203 undefined on input line 884
-.
-
-[203]
-
-LaTeX Warning: Reference `equation_8_9' on page 204 undefined on input line 901
-.
-
-
-LaTeX Warning: Reference `equation_8_32' on page 204 undefined on input line 90
-3.
-
-
-LaTeX Warning: Reference `equation_8_33' on page 204 undefined on input line 91
-0.
-
-
-LaTeX Warning: Reference `equation_8_11' on page 204 undefined on input line 91
-2.
-
-
-LaTeX Warning: Reference `equation_8_34' on page 204 undefined on input line 91
-2.
-
-[204] [205]
+[205] [206]
 Overfull \hbox (5.56319pt too wide) in paragraph at lines 945--948
 \T2A/cmr/m/n/10 ли-ней-ная обо-лоч-ка ко-то-рой со-дер-жит функ-ции $\OML/cmm/m
 /it/10 f[]\OT1/cmr/m/n/10 ([])(\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = 1\OML/cmm/m
@@ -2878,11 +2239,7 @@ Overfull \hbox (5.56319pt too wide) in paragraph at lines 945--948
 /n/10 . Функ-
  []
 
-
-LaTeX Warning: Reference `equation_8_28' on page 206 undefined on input line 95
-1.
-
-[206]
+[207]
 Overfull \hbox (9.88028pt too wide) in paragraph at lines 972--973
 []\T2A/cmr/m/n/10 Понятие нор-ми-ро-ван-но-го век-тор-но-го про-стран-ства. Аб-
 стракт-ное опре-
@@ -2906,170 +2263,23 @@ Overfull \hbox (3.20972pt too wide) in paragraph at lines 992--993
 -вест-ной функ-
  []
 
-[207]
+[208]
 Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
 
  []
 
-[208] [209] [210] [211]
+[209] [210] [211] [212]
 Underfull \hbox (badness 10000) in paragraph at lines 1210--1213
 
  []
 
-) [212]
+) [213]
 \openout2 = `addition.aux'.
 
- (./addition.tex [213
+ (./addition.tex [214
 
 
-]
-
-LaTeX Warning: Citation `literature_brusencev_2010' on page 214 undefined on in
-put line 19.
-
-
-LaTeX Warning: Citation `literature_brusencev_2016' on page 214 undefined on in
-put line 19.
-
-
-LaTeX Warning: Reference `equation_9_2' on page 214 undefined on input line 32.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 214 undefined on input line 32.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 214 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 214 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `equation_9_2' on page 214 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 214 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 214 undefined on input line 37.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 214 undefined on input line 37.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 214 undefined on input line 37.
-
-
-[214]
-
-LaTeX Warning: Reference `equation_9_1' on page 215 undefined on input line 42.
-
-
-
-LaTeX Warning: Reference `equation_9_4' on page 215 undefined on input line 42.
-
-
-
-Underfull \hbox (badness 4505) in paragraph at lines 42--43
-[][]\OML/cmm/m/it/10 D[]$\T2A/cmr/m/n/10 . То-гда $\OML/cmm/m/it/10 f\OT1/cmr/m
-/n/10 ([])[][]\OML/cmm/m/it/10 f[]e[]$\T2A/cmr/m/n/10 . Вве-дјм обо-зна-че-ния 
-$\OML/cmm/m/it/10 a[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ge[]; e[]\OT1/cmr/m/n/
-10 )$\T2A/cmr/m/n/10 ,
- []
-
-
-LaTeX Warning: Reference `equation_9_1' on page 215 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 215 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `equation_9_5' on page 215 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 215 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 215 undefined on input line 48.
-
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 51--52
-[]\T2A/cmr/bx/n/10 Определение 2.  \T2A/cmr/m/n/10 Ко-неч-но-мер-ную ап-прок-си
--ма-цию $\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10
- )$ \T2A/cmr/m/n/10 на-зо-
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 51--52
-\T2A/cmr/m/n/10 вем  \T2A/cmr/m/it/10 ре-гу-ляр-ной по функ-ци-о-на-лу\T2A/cmr/
-m/n/10 , ес-ли спра-вед-ли-во нера-вен-ство $[]
- []
-
-
-LaTeX Warning: Citation `literature_brusencev_2013' on page 215 undefined on in
-put line 53.
-
-
-LaTeX Warning: Citation `literature_brusencev_2012' on page 215 undefined on in
-put line 53.
-
-
-LaTeX Warning: Reference `equation_9_5' on page 215 undefined on input line 59.
-
-
-
-LaTeX Warning: Reference `equation_9_4' on page 215 undefined on input line 59.
-
-
-[215]
-
-LaTeX Warning: Reference `equation_9_5' on page 216 undefined on input line 61.
-
-
-
-LaTeX Warning: Reference `equation_9_2' on page 216 undefined on input line 61.
-
-
-
-LaTeX Warning: Reference `equation_9_2' on page 216 undefined on input line 61.
-
-
-
-LaTeX Warning: Reference `equation_9_5' on page 216 undefined on input line 61.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 216 undefined on input line 64.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 216 undefined on input line 64.
-
-
-
-LaTeX Warning: Reference `equation_9_2' on page 216 undefined on input line 68.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 216 undefined on input line 68.
-
-
-
-LaTeX Warning: Citation `literature_brusencev_2013' on page 216 undefined on in
-put line 75.
-
+] [215] [216]
 
 LaTeX Warning: Command \CYRG invalid in math mode on input line 75.
 
@@ -3106,7 +2316,7 @@ LaTeX Warning: Command \CYRG invalid in math mode on input line 75.
 Missing character: There is no Г in font cmr7!
 Missing character: There is no Г in font cmr7!
 Missing character: There is no Г in font cmr7!
-[216]
+[217]
 
 LaTeX Warning: Command \CYRG invalid in math mode on input line 76.
 
@@ -3115,10 +2325,6 @@ Missing character: There is no Г in font cmr10!
 LaTeX Warning: Command \CYRG invalid in math mode on input line 76.
 
 Missing character: There is no Г in font cmr10!
-
-LaTeX Warning: Reference `equation_9_1' on page 217 undefined on input line 76.
-
-
 
 LaTeX Warning: Command \CYRG invalid in math mode on input line 82.
 
@@ -3144,50 +2350,6 @@ Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
 
-LaTeX Warning: Reference `equation_9_10' on page 217 undefined on input line 90
-.
-
-
-LaTeX Warning: Reference `equation_9_1' on page 217 undefined on input line 90.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 217 undefined on input line 90.
-
-
-
-LaTeX Warning: Reference `equation_9_3' on page 217 undefined on input line 90.
-
-
-
-LaTeX Warning: Reference `equation_9_10' on page 217 undefined on input line 90
-.
-
-
-LaTeX Warning: Reference `equation_9_6' on page 217 undefined on input line 90.
-
-
-
-LaTeX Warning: Reference `equation_9_1' on page 217 undefined on input line 92.
-
-
-
-LaTeX Warning: Reference `equation_9_8' on page 217 undefined on input line 92.
-
-
-
-LaTeX Warning: Reference `equation_9_10' on page 217 undefined on input line 92
-.
-
-
-LaTeX Warning: Reference `equation_9_8' on page 217 undefined on input line 92.
-
-
-
-LaTeX Warning: Reference `equation_9_10' on page 217 undefined on input line 92
-.
-
-
 LaTeX Warning: Command \CYRG invalid in math mode on input line 94.
 
 
@@ -3205,21 +2367,9 @@ LaTeX Warning: Command \CYRG invalid in math mode on input line 94.
 
 LaTeX Warning: Command \CYRG invalid in math mode on input line 94.
 
-Missing character: There is no Г in font cmr10!
-Missing character: There is no Г in font cmr10!
-[217]
-
-LaTeX Warning: Reference `equation_9_8' on page 218 undefined on input line 96.
-
-
-
-LaTeX Warning: Reference `equation_9_10' on page 218 undefined on input line 96
-.
-
-
-LaTeX Warning: Reference `equation_9_8' on page 218 undefined on input line 96.
-
-
+Missing character: There is no Г in font cmr7!
+Missing character: There is no Г in font cmr7!
+[218]
 
 LaTeX Warning: Command \CYRG invalid in math mode on input line 104.
 
@@ -3233,22 +2383,6 @@ LaTeX Warning: Command \CYRG invalid in math mode on input line 106.
 
 Missing character: There is no Г in font cmr10!
 
-LaTeX Warning: Reference `equation_9_11' on page 218 undefined on input line 10
-9.
-
-
-LaTeX Warning: Reference `equation_9_1' on page 218 undefined on input line 109
-.
-
-
-LaTeX Warning: Reference `equation_9_8' on page 218 undefined on input line 109
-.
-
-
-LaTeX Warning: Reference `equation_9_10' on page 218 undefined on input line 10
-9.
-
-
 LaTeX Warning: Command \cyrp invalid in math mode on input line 114.
 
 
@@ -3296,72 +2430,24 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 114.
 Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
-[218]
-
-LaTeX Warning: Reference `equation_9_6' on page 219 undefined on input line 131
-.
-
-
-LaTeX Warning: Reference `equation_9_12' on page 219 undefined on input line 13
-1.
-
-
-LaTeX Warning: Reference `equation_9_12' on page 219 undefined on input line 13
-1.
-
-
-LaTeX Warning: Reference `equation_9_11' on page 219 undefined on input line 13
-1.
-
-
-LaTeX Warning: Reference `equation_9_3' on page 219 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `equation_9_10' on page 219 undefined on input line 13
-5.
-
-
-LaTeX Warning: Reference `equation_9_1' on page 219 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `equation_9_3' on page 219 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `equation_9_8' on page 219 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `equation_9_10' on page 219 undefined on input line 13
-5.
-
-
-LaTeX Warning: Reference `equation_9_1' on page 219 undefined on input line 135
-.
-
-[219] <pictures/picturefile_9_1.jpg, id=1402, 283.824pt x 456.9435pt>
+[219] [220] <pictures/picturefile_9_1.jpg, id=1965, 283.824pt x 456.9435pt>
 File: pictures/picturefile_9_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/picturefile_9_2.jpg, id=1403, 227.6505pt x 113.9895pt>
+<pictures/picturefile_9_2.jpg, id=1966, 227.6505pt x 113.9895pt>
 File: pictures/picturefile_9_2.jpg Graphic file (type jpg)
 
-<use pictures/picturefile_9_2.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<pictures/picturefile_9_3.jpg, id=1404, 227.6505pt x 102.492pt>
+<use pictures/picturefile_9_2.jpg> [221]
+<pictures/picturefile_9_3.jpg, id=1971, 227.6505pt x 102.492pt>
 File: pictures/picturefile_9_3.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_3.jpg>
+Underfull \vbox (badness 2452) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [222 <./pictures/picturefile_9_1.jpg> <./pictures/picturefile_9_2.jpg>]
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 198.
 
@@ -3434,14 +2520,6 @@ Missing character: There is no К in font cmr10!
 LaTeX Warning: Command \CYRG invalid in math mode on input line 198.
 
 Missing character: There is no Г in font cmr10!
-[220]
-
-LaTeX Warning: Text page 221 contains only floats.
-
-
-Underfull \vbox (badness 5832) has occurred while \output is active []
-
- [221 <./pictures/picturefile_9_1.jpg> <./pictures/picturefile_9_2.jpg>]
 
 LaTeX Warning: Command \cyri invalid in math mode on input line 198.
 
@@ -3450,10 +2528,10 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 198.
 
 Missing character: There is no и in font cmr10!
 Missing character: There is no и in font cmr10!
-<pictures/picturefile_9_4.jpg, id=1415, 483.552pt x 323.5725pt>
+<pictures/picturefile_9_4.jpg, id=1978, 483.552pt x 323.5725pt>
 File: pictures/picturefile_9_4.jpg Graphic file (type jpg)
 
-<use pictures/picturefile_9_4.jpg> [222 <./pictures/picturefile_9_3.jpg> <./pic
+<use pictures/picturefile_9_4.jpg> [223 <./pictures/picturefile_9_3.jpg> <./pic
 tures/picturefile_9_4.jpg>]
 
 LaTeX Warning: Command \CYRK invalid in math mode on input line 220.
@@ -3491,11 +2569,11 @@ LaTeX Warning: Command \cyrs invalid in math mode on input line 220.
 Missing character: There is no К in font cmr10!
 Missing character: There is no м in font cmr10!
 Missing character: There is no с in font cmr10!
-<pictures/picturefile_9_5.jpg, id=1422, 219.1095pt x 159.3225pt>
+<pictures/picturefile_9_5.jpg, id=1986, 219.1095pt x 159.3225pt>
 File: pictures/picturefile_9_5.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_5.jpg>
-<pictures/picturefile_9_6.jpg, id=1423, 221.0805pt x 159.3225pt>
+<pictures/picturefile_9_6.jpg, id=1987, 221.0805pt x 159.3225pt>
 File: pictures/picturefile_9_6.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_6.jpg>
@@ -3550,11 +2628,14 @@ Missing character: There is no В in font cmr10!
 Missing character: There is no т in font cmr10!
 Missing character: There is no м in font cmr10!
 Missing character: There is no К in font cmr10!
-[223 <./pictures/picturefile_9_5.jpg>]
-<pictures/picturefile_9_7.jpg, id=1430, 469.4265pt x 277.5825pt>
+[224 <./pictures/picturefile_9_5.jpg>]
+<pictures/picturefile_9_7.jpg, id=1993, 469.4265pt x 277.5825pt>
 File: pictures/picturefile_9_7.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_7.jpg>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: Command \CYRS invalid in math mode on input line 266.
 
@@ -3567,43 +2648,30 @@ LaTeX Warning: Command \cyrt invalid in math mode on input line 266.
 
 Missing character: There is no В in font cmr10!
 Missing character: There is no т in font cmr10!
-[224 <./pictures/picturefile_9_6.jpg> <./pictures/picturefile_9_7.jpg>]
-
-LaTeX Warning: Reference `equation_9_7' on page 225 undefined on input line 268
-.
-
-
+[225 <./pictures/picturefile_9_6.jpg>]
 Underfull \hbox (badness 5374) in paragraph at lines 268--269
 []\T2A/cmr/bx/n/10 Выводы.\T2A/cmr/m/n/10 Регулярность ко-неч-но-мер-ной ап-про
 к-си-ма-ции $\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/
 n/10 )$ \T2A/cmr/m/n/10 по
  []
 
-[225]
-
-LaTeX Warning: Citation `literature_gladkov' on page 226 undefined on input lin
-e 273.
-
-) [226]
+[226 <./pictures/picturefile_9_7.jpg>]) [227]
 \openout2 = `literature.aux'.
 
- (./literature.tex [227
+ (./literature.tex [228
 
 
-] [228] [229]) [230]
+] [229]
+[230]) [231]
 \openout2 = `the_end.aux'.
 
- (./the_end.tex) [231
+ (./the_end.tex) [232
 
 
-]
-(./main.aux (./title.aux) (./intro.aux) (./chapter_1.aux) (./chapter_2.aux)
-(./chapter_3.aux) (./chapter_4.aux) (./chapter_5.aux) (./chapter_6.aux)
-(./chapter_7.aux) (./chapter_8.aux) (./addition.aux) (./literature.aux)
-(./the_end.aux))
-
-LaTeX Warning: There were undefined references.
-
+] (./main.aux (./title.aux) (./intro.aux)
+(./chapter_1.aux) (./chapter_2.aux) (./chapter_3.aux) (./chapter_4.aux)
+(./chapter_5.aux) (./chapter_6.aux) (./chapter_7.aux) (./chapter_8.aux)
+(./addition.aux) (./literature.aux) (./the_end.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -3614,13 +2682,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 367 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11690 strings out of 493848
- 159754 string characters out of 3152208
- 290274 words of memory out of 3000000
- 13910 multiletter control sequences out of 15000+200000
+ 11822 strings out of 493848
+ 161672 string characters out of 3152208
+ 313528 words of memory out of 3000000
+ 14004 multiletter control sequences out of 15000+200000
  35697 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,21n,43p,2785b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,21n,43p,2803b,775s stack positions out of 5000i,500n,10000p,200000b,50000s
 {c:/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 2a.enc}<c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c
 :/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive
@@ -3660,9 +2728,9 @@ c/cm-super/sfrm1440.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super
 /sfti0600.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0800.
 pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/te
 xlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (231 pages, 2702617 bytes).
+Output written on main.pdf (232 pages, 2818574 bytes).
 PDF statistics:
- 1794 PDF objects out of 2073 (max. 8388607)
- 696 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2345 PDF objects out of 2487 (max. 8388607)
+ 697 named destinations out of 1000 (max. 500000)
+ 757 words of extra memory for PDF output out of 10000 (max. 10000000)
 

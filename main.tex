@@ -1,5 +1,5 @@
 % !TEX TS-program = pdflatex
-% Для компиляции в более старой версии, возможно, надо заменить \diabbox на \slashbox
+% пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ \diabbox пїЅпїЅ \slashbox
 \documentclass[10pt, a5paper, twoside]{article} %dissert
 
 \usepackage[russian]{babel}
@@ -9,6 +9,7 @@
 \usepackage{amssymb}
 \usepackage{longtable}
 \usepackage{amsmath,amssymb,amscd}
+\usepackage{stackrel}
 \usepackage{amsfonts}
 \usepackage{fancyhdr}
 \usepackage[cp1251]{inputenc}
@@ -18,21 +19,21 @@
 \usepackage{color}
 \usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
 \usepackage{titlesec}
-%Дополнительные пакеты
+%пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 \usepackage{colortbl}
 \usepackage{multirow}
 \usepackage{makecell}
-%В гл. 4
+%пїЅ пїЅпїЅ. 4
 \usepackage{diagbox}
-%разрядка текста (команда \so)
+%пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ \so)
 \usepackage{soul}
-\usepackage{ragged2e} %НОВЫЕ ОТСТУПЫ ДЛЯ ТИТУЛЬНОГО ЛИСТА
+\usepackage{ragged2e} %пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 \usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
 
 \usepackage{enumitem}
 \setlist{nolistsep, itemsep=0cm, parsep=0pt}
 
-%для 1.5
+%пїЅпїЅпїЅ 1.5
 \definecolor{Gray}{gray}{0.9}
 
 \newcommand{\mes}{\mathrm{mes}}
@@ -63,87 +64,87 @@
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
 
-% Счётчики
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-% Счётчик теорем
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{teorema_counter}
-\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf Теорема \arabic{section}.\arabic{teorema_counter}. }}
+\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{teorema_counter}. }}
 \numberwithin{teorema_counter}{section}
 
 
-% Счётчик лемм
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 \newcounter{lemma_counter}
-\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf Лемма \arabic{section}.\arabic{lemma_counter}. }}
+\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{lemma_counter}. }}
 \numberwithin{lemma_counter}{section}
 
-% Счётчик заданий
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{task_counter}
 \def\zadanie{\addtocounter{task_counter}{1}\par{\bf \arabic{section}.\arabic{task_counter}. }}
 \numberwithin{task_counter}{section}
 
 
-% Счётчик определений
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{definition_counter}
-\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf Определение \arabic{section}.\arabic{definition_counter}. }}
+\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{definition_counter}. }}
 \numberwithin{definition_counter}{section}
 
-% Счётчик замечаний
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{comment_counter}
-\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Замечание \arabic{section}.\arabic{comment_counter}. }}
+\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{comment_counter}. }}
 \numberwithin{comment_counter}{section}
 
-% Счётчик примеров
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{primer_counter}
-\def\primer{\addtocounter{primer_counter}{1}\par{\bf Пример \arabic{section}.\arabic{primer_counter}. }}
+\def\primer{\addtocounter{primer_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{primer_counter}. }}
 \numberwithin{primer_counter}{section}
 
-% Счётчик утверждений
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newcounter{statement_counter}
-\def\statement{\addtocounter{statement_counter}{1}\par{\bf Утверждение \arabic{section}.\arabic{statement_counter}. }}
+\def\statement{\addtocounter{statement_counter}{1}\par{\bf пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ \arabic{section}.\arabic{statement_counter}. }}
 \numberwithin{statement_counter}{section}
 
 \setlength{\textfloatsep}{0mm}
 
 \begin{document}
 
-% Файл с титульными листами
+% пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \include{title}
 
-% Оглавление
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \tableofcontents
 
-% Переход на новую страницу
+% пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \newpage
 
-% Текст предисловия и введения
+% пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 \include{intro}
 
 \newpage
 
-\include{chapter_1} %-- проверена
+\include{chapter_1} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_2} %-- проверена
+\include{chapter_2} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_3} %-- проверена
+\include{chapter_3} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_4} %-- проверена
+\include{chapter_4} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_5} %-- проверена
+\include{chapter_5} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_6} %-- проверена
+\include{chapter_6} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_7} %-- проверена
+\include{chapter_7} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{chapter_8} %-- проверена
+\include{chapter_8} %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-\include{addition}  %-- проверена
+\include{addition}  %-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 \thispagestyle{empty}
 
 \vspace{1cm}
 
-% Список литературы
-\addcontentsline{toc}{section}{Библиографический список}
+% пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+\addcontentsline{toc}{section}{пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ}
 \include{literature}
 
 \include{the_end}
