@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 % !TEX TS-program = pdflatex
-% Äëÿ êîìïèëÿöèè â áîëåå ñòàðîé âåðñèè, âîçìîæíî, íàäî çàìåíèòü \diabbox íà \slashbox
+% Ð”Ð»Ñ ÐºÐ¾Ð¼Ð¿Ð¸Ð»ÑÑ†Ð¸Ð¸ Ð² Ð±Ð¾Ð»ÐµÐµ ÑÑ‚Ð°Ñ€Ð¾Ð¹ Ð²ÐµÑ€ÑÐ¸Ð¸, Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, Ð½Ð°Ð´Ð¾ Ð·Ð°Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ \diabbox Ð½Ð° \slashbox
 \documentclass[10pt, a5paper, twoside]{article} %dissert
 
 \usepackage[russian]{babel}
@@ -12,28 +11,29 @@
 \usepackage{amsmath,amssymb,amscd}
 \usepackage{amsfonts}
 \usepackage{fancyhdr}
-\usepackage[cp1251]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{leqno,eucal}
 \usepackage{indentfirst}
 \usepackage{moreverb}
 \usepackage{color}
 \usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
 \usepackage{titlesec}
-%Äîïîëíèòåëüíûå ïàêåòû
+%Ð”Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ð¿Ð°ÐºÐµÑ‚Ñ‹
 \usepackage{colortbl}
 \usepackage{multirow}
 \usepackage{makecell}
-%Â ãë. 4
+%Ð’ Ð³Ð». 4
 \usepackage{diagbox}
-%ðàçðÿäêà òåêñòà (êîìàíäà \so)
-\usepackage{soul}
-\usepackage{ragged2e} %ÍÎÂÛÅ ÎÒÑÒÓÏÛ ÄËß ÒÈÒÓËÜÍÎÃÎ ËÈÑÒÀ
+%Ñ€Ð°Ð·Ñ€ÑÐ´ÐºÐ° Ñ‚ÐµÐºÑÑ‚Ð° (ÐºÐ¾Ð¼Ð°Ð½Ð´Ð° \so)
+%\usepackage{soul}            %- Ð´Ð»Ñ cp1251
+\usepackage{soulutf8}         %- Ð´Ð»Ñ utf8
+\usepackage{ragged2e} %ÐÐžÐ’Ð«Ð• ÐžÐ¢Ð¡Ð¢Ð£ÐŸÐ« Ð”Ð›Ð¯ Ð¢Ð˜Ð¢Ð£Ð›Ð¬ÐÐžÐ“Ðž Ð›Ð˜Ð¡Ð¢Ð
 \usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
 
 \usepackage{enumitem}
 \setlist{nolistsep, itemsep=0cm, parsep=0pt}
 
-%äëÿ 1.5
+%Ð´Ð»Ñ 1.5
 \definecolor{Gray}{gray}{0.9}
 
 \newcommand{\mes}{\mathrm{mes}}
@@ -64,245 +64,89 @@
 \numberwithin{figure}{section}
 \numberwithin{table}{section}
 
-% Ñ÷¸ò÷èêè
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸ÐºÐ¸
 
-% Ñ÷¸ò÷èê òåîðåì
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ñ‚ÐµÐ¾Ñ€ÐµÐ¼
 \newcounter{teorema_counter}
-\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf Òåîðåìà \arabic{section}.\arabic{teorema_counter}. }}
+\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf Ð¢ÐµÐ¾Ñ€ÐµÐ¼Ð° \arabic{section}.\arabic{teorema_counter}. }}
 \numberwithin{teorema_counter}{section}
 
 
-% Ñ÷¸ò÷èê ëåìì
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ð»ÐµÐ¼Ð¼
 \newcounter{lemma_counter}
-\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf Ëåììà \arabic{section}.\arabic{lemma_counter}. }}
+\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf Ð›ÐµÐ¼Ð¼Ð° \arabic{section}.\arabic{lemma_counter}. }}
 \numberwithin{lemma_counter}{section}
 
-% Ñ÷¸ò÷èê çàäàíèé
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ð·Ð°Ð´Ð°Ð½Ð¸Ð¹
 \newcounter{task_counter}
 \def\zadanie{\addtocounter{task_counter}{1}\par{\bf \arabic{section}.\arabic{task_counter}. }}
 \numberwithin{task_counter}{section}
 
 
-% Ñ÷¸ò÷èê îïðåäåëåíèé
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ð¹
 \newcounter{definition_counter}
-\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf Îïðåäåëåíèå \arabic{section}.\arabic{definition_counter}. }}
+\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ðµ \arabic{section}.\arabic{definition_counter}. }}
 \numberwithin{definition_counter}{section}
 
-% Ñ÷¸ò÷èê çàìå÷àíèé
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ð·Ð°Ð¼ÐµÑ‡Ð°Ð½Ð¸Ð¹
 \newcounter{comment_counter}
-\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Çàìå÷àíèå \arabic{section}.\arabic{comment_counter}. }}
+\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf Ð—Ð°Ð¼ÐµÑ‡Ð°Ð½Ð¸Ðµ \arabic{section}.\arabic{comment_counter}. }}
 \numberwithin{comment_counter}{section}
 
-% Ñ÷¸ò÷èê ïðèìåðîâ
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ð¾Ð²
 \newcounter{primer_counter}
-\def\primer{\addtocounter{primer_counter}{1}\par{\bf Ïðèìåð \arabic{section}.\arabic{primer_counter}. }}
+\def\primer{\addtocounter{primer_counter}{1}\par{\bf ÐŸÑ€Ð¸Ð¼ÐµÑ€ \arabic{section}.\arabic{primer_counter}. }}
 \numberwithin{primer_counter}{section}
 
-% Ñ÷¸ò÷èê óòâåðæäåíèé
+% Ð¡Ñ‡Ñ‘Ñ‚Ñ‡Ð¸Ðº ÑƒÑ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹
 \newcounter{statement_counter}
-\def\statement{\addtocounter{statement_counter}{1}\par{\bf Óòâåðæäåíèå \arabic{section}.\arabic{statement_counter}. }}
+\def\statement{\addtocounter{statement_counter}{1}\par{\bf Ð£Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ðµ \arabic{section}.\arabic{statement_counter}. }}
 \numberwithin{statement_counter}{section}
 
 \setlength{\textfloatsep}{0mm}
 
 \begin{document}
 
-% Ôàéë ñ òèòóëüíûìè ëèñòàìè
+% Ð¤Ð°Ð¹Ð» Ñ Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ñ‹Ð¼Ð¸ Ð»Ð¸ÑÑ‚Ð°Ð¼Ð¸
 \include{title}
 
-% Îãëàâëåíèå
+% ÐžÐ³Ð»Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ
 \tableofcontents
 
-% Ïåðåõîä íà íîâóþ ñòðàíèöó
+% ÐŸÐµÑ€ÐµÑ…Ð¾Ð´ Ð½Ð° Ð½Ð¾Ð²ÑƒÑŽ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñƒ
 \newpage
 
-% Òåêñò ïðåäèñëîâèÿ è ââåäåíèÿ
+% Ð¢ÐµÐºÑÑ‚ Ð¿Ñ€ÐµÐ´Ð¸ÑÐ»Ð¾Ð²Ð¸Ñ Ð¸ Ð²Ð²ÐµÐ´ÐµÐ½Ð¸Ñ
 \include{intro}
 
 \newpage
 
-\include{chapter_1} %-- ïðîâåðåíà
+\include{chapter_1} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_2} %-- ïðîâåðåíà
+\include{chapter_2} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_3} %-- ïðîâåðåíà
+\include{chapter_3} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_4} %-- ïðîâåðåíà
+\include{chapter_4} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_5} %-- ïðîâåðåíà
+\include{chapter_5} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_6} %-- ïðîâåðåíà
+\include{chapter_6} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_7} %-- ïðîâåðåíà
+\include{chapter_7} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{chapter_8} %-- ïðîâåðåíà
+\include{chapter_8} %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
-\include{addition}  %-- ïðîâåðåíà
+\include{addition}  %-- Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð°
 
 \thispagestyle{empty}
 
 \vspace{1cm}
 
-% Ñïèñîê ëèòåðàòóðû
-\addcontentsline{toc}{section}{Áèáëèîãðàôè÷åñêèé ñïèñîê}
+% Ð¡Ð¿Ð¸ÑÐ¾Ðº Ð»Ð¸Ñ‚ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñ‹
+\addcontentsline{toc}{section}{Ð‘Ð¸Ð±Ð»Ð¸Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ ÑÐ¿Ð¸ÑÐ¾Ðº}
 \include{literature}
 
 \include{the_end}
 
 \end{document}
-=======
-% !TEX TS-program = pdflatex
-% ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \diabbox ï¿½ï¿½ \slashbox
-\documentclass[10pt, a5paper, twoside]{article} %dissert
-
-\usepackage[russian]{babel}
-\usepackage{graphics}
-\usepackage{amsfonts}
-\usepackage[dvips]{graphicx}
-\usepackage{amssymb}
-\usepackage{longtable}
-\usepackage{amsmath,amssymb,amscd}
-\usepackage{stackrel}
-\usepackage{textcomp}
-\usepackage{mathtext}
-\usepackage{amsfonts}
-\usepackage{fancyhdr}
-\usepackage[cp1251]{inputenc}
-\usepackage{leqno,eucal}
-\usepackage{indentfirst}
-\usepackage{moreverb}
-\usepackage{color}
-\usepackage[unicode,colorlinks,filecolor=black,linkcolor=black,citecolor=black,urlcolor=black,pdftex]{hyperref}
-\usepackage{titlesec}
-%ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\usepackage{colortbl}
-\usepackage{multirow}
-\usepackage{makecell}
-%ï¿½ ï¿½ï¿½. 4
-\usepackage{diagbox}
-%ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \so)
-\usepackage{soul}
-\usepackage{ragged2e} %ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
-\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm,bindingoffset=0cm,footskip=7mm]{geometry}
-
-\usepackage{enumitem}
-\setlist{nolistsep, itemsep=0cm, parsep=0pt}
-
-%ï¿½ï¿½ï¿½ 1.5
-\definecolor{Gray}{gray}{0.9}
-
-\newcommand{\mes}{\mathrm{mes}}
-\newcommand{\diam}{\mathrm{diam}}
-\newcommand{\const}{\mathrm{const}}
-\newcommand{\diverg}{\mathrm{div}}
-
-
-\usepackage{caption}
-\DeclareCaptionLabelSeparator{dot}{. }
-\captionsetup{justification=centering,labelsep=dot,font=small}
-%\renewcommand{\thepage}{\footnotesize\arabic{page}}
-
-\renewcommand{\thesection}{\arabic{section}}
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
-\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-\renewcommand{\thefigure}{\thesection.\arabic{figure}}
-\renewcommand{\thetable}{\thesection.\arabic{table}}
-
-
-\titleformat{\section}{\normalsize\bfseries\centering}{\thesection .}{1ex}{}
-\titleformat*{\subsection}{\normalsize\bfseries}
-%\captionsetup[table] {margin=10pt,position=above}
-%\captionsetup[table] {labelsep=newline}
-\captionsetup[table] {justification=raggedright,labelsep=dot,font=small}
-
-\numberwithin{equation}{section}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{teorema_counter}
-\def\teorema{\addtocounter{teorema_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{teorema_counter}. }}
-\numberwithin{teorema_counter}{section}
-
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
-\newcounter{lemma_counter}
-\def\lemma{\addtocounter{lemma_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{lemma_counter}. }}
-\numberwithin{lemma_counter}{section}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{task_counter}
-\def\zadanie{\addtocounter{task_counter}{1}\par{\bf \arabic{section}.\arabic{task_counter}. }}
-\numberwithin{task_counter}{section}
-
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{definition_counter}
-\def\opredelenie{\addtocounter{definition_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{definition_counter}. }}
-\numberwithin{definition_counter}{section}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{comment_counter}
-\def\zamechanie{\addtocounter{comment_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{comment_counter}. }}
-\numberwithin{comment_counter}{section}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{primer_counter}
-\def\primer{\addtocounter{primer_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{primer_counter}. }}
-\numberwithin{primer_counter}{section}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newcounter{statement_counter}
-\def\statement{\addtocounter{statement_counter}{1}\par{\bf ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ \arabic{section}.\arabic{statement_counter}. }}
-\numberwithin{statement_counter}{section}
-
-\setlength{\textfloatsep}{0mm}
-
-\begin{document}
-
-% ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\include{title}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\tableofcontents
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\newpage
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\include{intro}
-
-\newpage
-
-\include{chapter_1} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_2} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_3} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_4} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_5} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_6} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_7} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{chapter_8} %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\include{addition}  %-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-
-\thispagestyle{empty}
-
-\vspace{1cm}
-
-% ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-\addcontentsline{toc}{section}{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}
-\include{literature}
-
-\include{the_end}
-
-\end{document}
->>>>>>> origin/NNikitaB-patch-1
