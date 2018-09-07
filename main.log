@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdflatex 2018.9.4)  6 SEP 2018 20:49
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=pdflatex 2018.9.4)  7 SEP 2018 08:23
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -197,6 +197,77 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 ))
+(c:/texlive/2009/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(c:/texlive/2009/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(c:/texlive/2009/texmf-dist/tex/latex/t2/mathtext.sty
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
 (c:/texlive/2009/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
@@ -280,6 +351,7 @@ Package: xcolor-patch 2009/10/02 xcolor patch
 
 (c:/texlive/2009/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+\symPD1letters=\mathgroup6
 )
 (c:/texlive/2009/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -295,6 +367,7 @@ Package hyperref Info: Option `unicode' set `true' on input line 2864.
 
 (c:/texlive/2009/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
+\symPUletters=\mathgroup7
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
@@ -558,24 +631,32 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 (./chapter_8.aux) (./addition.aux) (./literature.aux) (./the_end.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 110.
+
+
+(c:/texlive/2009/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 
 (c:/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -590,7 +671,7 @@ LaTeX Font Info:    ... okay on input line 108.
 \MPnumerator=\count147
 \everyMPtoPDFconversion=\toks41
 )
-Package hyperref Info: Link coloring ON on input line 108.
+Package hyperref Info: Link coloring ON on input line 110.
  (c:/texlive/2009/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -599,15 +680,15 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
  (./main.out)
 (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \AtBeginShipoutBox=\box37
-LaTeX Info: Redefining \selectfont on input line 108.
+LaTeX Info: Redefining \selectfont on input line 110.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -658,17 +739,9 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {c:/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
- (c:/texlive/2009/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
-) [3] (./main.toc
+[2]) [3] (./main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-(c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
@@ -676,6 +749,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 (c:/texlive/2009/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for PD1+cmr on input line 5.
+LaTeX Font Info:    No file PD1cmr.fd. on input line 5.
+
+
+LaTeX Font Warning: Font shape `PD1/cmr/m/n' undefined
+(Font)              using `PD1/pdf/m/n' instead on input line 5.
+
+LaTeX Font Info:    Try loading font information for PU+cmr on input line 5.
+LaTeX Font Info:    No file PUcmr.fd. on input line 5.
+
+LaTeX Font Warning: Font shape `PU/cmr/m/n' undefined
+(Font)              using `PU/pdf/m/n' instead on input line 5.
+
+
 Overfull \hbox (5.84213pt too wide) in paragraph at lines 16--16
  [][] [][][]\T2A/cmr/m/n/8 Преобразование ре-ше-ния си-сте-мы огра-ни-че-ний тр
 анс-порт-ной за-да-чи сдви- 
@@ -714,7 +801,7 @@ Overfull \hbox (1.55078pt too wide) in paragraph at lines 5--5
 
 
 ] [10] [11] [12]
-<pictures/picturefile_1_1.png, id=467, 314.97675pt x 166.82326pt>
+<pictures/picturefile_1_1.png, id=468, 314.97675pt x 166.82326pt>
 File: pictures/picturefile_1_1.png Graphic file (type png)
 
 <use pictures/picturefile_1_1.png>
@@ -909,7 +996,7 @@ Overfull \hbox (32.0241pt too wide) detected at line 1311
 \openout2 = `chapter_2.aux'.
 
  (./chapter_2.tex
-<pictures/picturefile_2_1.png, id=637, 292.84406pt x 146.79843pt>
+<pictures/picturefile_2_1.png, id=638, 292.84406pt x 146.79843pt>
 File: pictures/picturefile_2_1.png Graphic file (type png)
 
 <use pictures/picturefile_2_1.png>
@@ -920,16 +1007,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [38 <./pictures/picturefile_2_1.png (PNG copy)>]
-<pictures/picturefile_2_2.png, id=650, 295.85532pt x 104.64093pt>
+<pictures/picturefile_2_2.png, id=651, 295.85532pt x 104.64093pt>
 File: pictures/picturefile_2_2.png Graphic file (type png)
 
 <use pictures/picturefile_2_2.png>
-<pictures/picturefile_2_3.png, id=651, 266.49562pt x 132.495pt>
+<pictures/picturefile_2_3.png, id=652, 266.49562pt x 132.495pt>
 File: pictures/picturefile_2_3.png Graphic file (type png)
 
 <use pictures/picturefile_2_3.png> [39 <./pictures/picturefile_2_2.png (PNG cop
 y)> <./pictures/picturefile_2_3.png (PNG copy)>]
-<pictures/picturefile_2_4.png, id=659, 299.61937pt x 195.73125pt>
+<pictures/picturefile_2_4.png, id=660, 299.61937pt x 195.73125pt>
 File: pictures/picturefile_2_4.png Graphic file (type png)
 
 <use pictures/picturefile_2_4.png> [40 <./pictures/picturefile_2_4.png (PNG cop
@@ -946,7 +1033,7 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 110.
 Missing character: There is no и in font cmr8!
 Missing character: There is no л in font cmr8!
 Missing character: There is no и in font cmr8!
-[41] <pictures/picturefile_2_5.png, id=672, 301.8778pt x 153.57375pt>
+[41] <pictures/picturefile_2_5.png, id=673, 301.8778pt x 153.57375pt>
 File: pictures/picturefile_2_5.png Graphic file (type png)
 
 <use pictures/picturefile_2_5.png>
@@ -954,11 +1041,11 @@ File: pictures/picturefile_2_5.png Graphic file (type png)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [42] [43 <./pictures/picturefile_2_5.png (PNG copy)>] [44]
-<pictures/picturefile_2_6.png, id=696, 297.36093pt x 106.14656pt>
+<pictures/picturefile_2_6.png, id=697, 297.36093pt x 106.14656pt>
 File: pictures/picturefile_2_6.png Graphic file (type png)
 
 <use pictures/picturefile_2_6.png> [45 <./pictures/picturefile_2_6.png (PNG cop
-y)>] <pictures/picturefile_2_7.png, id=707, 297.36093pt x 112.92188pt>
+y)>] <pictures/picturefile_2_7.png, id=708, 297.36093pt x 112.92188pt>
 File: pictures/picturefile_2_7.png Graphic file (type png)
 
 <use pictures/picturefile_2_7.png>
@@ -1052,7 +1139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-[57] <pictures/picturefile_3_1.jpg, id=784, 786.94pt x 433.62pt>
+[57] <pictures/picturefile_3_1.jpg, id=785, 786.94pt x 433.62pt>
 File: pictures/picturefile_3_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_3_1.jpg>
@@ -1074,7 +1161,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
-[60] <pictures/picturefile_3_2.jpg, id=798, 716.6775pt x 506.89375pt>
+[60] <pictures/picturefile_3_2.jpg, id=799, 716.6775pt x 506.89375pt>
 File: pictures/picturefile_3_2.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_3_2.jpg> [61 <./pictures/picturefile_3_2.jpg>]
@@ -1438,7 +1525,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78] <pictures/picturefile_4_1.jpg, id=928, 328.22626pt x 233.37187pt>
+[78] <pictures/picturefile_4_1.jpg, id=929, 328.22626pt x 233.37187pt>
 File: pictures/picturefile_4_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_4_1.jpg>
@@ -1538,8 +1625,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [98]
 Overfull \hbox (13.92076pt too wide) in paragraph at lines 221--223
 []\T2A/cmr/m/it/10 Задача о ран-це. \T2A/cmr/m/n/10 Име-ет-ся век-тор огра-ни-ч
-ен-ных ре-сур-сов $[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 b[];
- b[]; :::; b[]\OMS/cmsy/m/n/10 g$\T2A/cmr/m/n/10 ,
+ен-ных ре-сур-сов $[] \PU/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 b[]; 
+b[]; :::; b[]\OMS/cmsy/m/n/10 g$\T2A/cmr/m/n/10 ,
  []
 
 [99] [100]pdfTeX warning (ext4): destination with the same identifier (name{equ
@@ -1645,7 +1732,7 @@ Overfull \hbox (0.29129pt too wide) in paragraph at lines 557--558
 ю-щую сим-плекс
  []
 
-[108] [109] <pictures/picturefile_5_1.png, id=1138, 179.16937pt x 126.4725pt>
+[108] [109] <pictures/picturefile_5_1.png, id=1139, 179.16937pt x 126.4725pt>
 File: pictures/picturefile_5_1.png Graphic file (type png)
 
 <use pictures/picturefile_5_1.png>
@@ -1729,7 +1816,7 @@ Missing character: There is no А in font cmr10!
 Overfull \hbox (6.20905pt too wide) in paragraph at lines 328--330
 \T2A/cmr/m/n/10 Приращения $\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 x[]$ \T2A/cmr/m/
 n/10 в си-лу со-от-но-ше-ний (3.1) удо-вле-тво-ря-ют ра-вен-ству $\OMS/cmsy/m/n
-/10 r\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 =
+/10 r\OML/cmm/m/it/10 x[] \PU/cmr/m/n/10 =
  []
 
 [124] [125] [126] [127] [128] [129]
@@ -1775,10 +1862,10 @@ Overfull \hbox (5.14294pt too wide) in paragraph at lines 823--824
 
 
 Overfull \hbox (7.07082pt too wide) in paragraph at lines 832--833
-\T2A/cmr/m/n/10 где $[]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 5\O
-ML/cmm/m/it/10 f\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; []$ \T2A/cmr/m/n/10 рас-с
-мат-ри-ва-ют-ся как матрицы-столбцы раз-ме-ра $\OML/cmm/m/it/10 n\OMS/cmsy/m/n/
-10 ^^B$\T2A/cmr/m/n/10 1,
+\T2A/cmr/m/n/10 где $[]\OML/cmm/m/it/10 ; \PU/cmr/m/n/10 (\OMS/cmsy/m/n/10 5\OM
+L/cmm/m/it/10 f\PU/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; []$ \T2A/cmr/m/n/10 рас-сма
+т-ри-ва-ют-ся как матрицы-столбцы раз-ме-ра $\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10
+ ^^B$\T2A/cmr/m/n/10 1,
  []
 
 [136] [137] [138]
@@ -1787,7 +1874,7 @@ Overfull \hbox (11.78477pt too wide) in paragraph at lines 915--916
 е-тов-ским ре-ше-ни-ем мно-
  []
 
-<pictures/picturefile_6_1.png, id=1312, 878.53218pt x 600.74437pt>
+<pictures/picturefile_6_1.png, id=1313, 878.53218pt x 600.74437pt>
 File: pictures/picturefile_6_1.png Graphic file (type png)
 
 <use pictures/picturefile_6_1.png>
@@ -1888,7 +1975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1233--1237
 \openout2 = `chapter_7.aux'.
 
  (./chapter_7.tex
-<pictures/picturefile_7_1.png, id=1365, 198.7425pt x 167.12437pt>
+<pictures/picturefile_7_1.png, id=1366, 198.7425pt x 167.12437pt>
 File: pictures/picturefile_7_1.png Graphic file (type png)
 
 <use pictures/picturefile_7_1.png> [147
@@ -1903,13 +1990,13 @@ Overfull \hbox (4.5958pt too wide) in paragraph at lines 32--36
 [148]
 Overfull \hbox (1.05171pt too wide) in paragraph at lines 37--39
 []\T2A/cmr/m/n/10 Управлением мы усло-вим-ся на-зы-вать по-сле-до-ва-тель-ность
- то-чек $[]\OT1/cmr/m/n/10 (0)\OML/cmm/m/it/10 ; [][] 
+ то-чек $[]\PU/cmr/m/n/10 (0)\OML/cmm/m/it/10 ; [][] 
  []
 
 
 Overfull \hbox (4.8941pt too wide) in paragraph at lines 44--48
 \T2A/cmr/m/n/10 ни-ям ([][]7.5[][]) на-зы-ва-ют со-от-вет-ству-ю-щей на-чаль-но
--му со-сто-я-нию $[]\OT1/cmr/m/n/10 (0)$ \T2A/cmr/m/n/10 и управ-
+-му со-сто-я-нию $[]\PU/cmr/m/n/10 (0)$ \T2A/cmr/m/n/10 и управ-
  []
 
 [149] [150]
@@ -1917,7 +2004,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
-[151] <pictures/picturefile_7_2.png, id=1417, 228.855pt x 114.4275pt>
+[151] <pictures/picturefile_7_2.png, id=1418, 228.855pt x 114.4275pt>
 File: pictures/picturefile_7_2.png Graphic file (type png)
 
 <use pictures/picturefile_7_2.png>
@@ -1933,7 +2020,7 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 76.
 Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
-<pictures/picturefile_7_3.png, id=1419, 200.24812pt x 135.50626pt>
+<pictures/picturefile_7_3.png, id=1420, 200.24812pt x 135.50626pt>
 File: pictures/picturefile_7_3.png Graphic file (type png)
 
 <use pictures/picturefile_7_3.png>
@@ -1957,11 +2044,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
 Overfull \hbox (2.6441pt too wide) in paragraph at lines 142--143
 []\T2A/cmr/m/n/10 Этот мак-си-мум опре-де-лить нель-зя, т.к. нам неиз-вест-но с
-о-сто-я-ние $[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 ^^@
+о-сто-я-ние $[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 ^^@
  []
 
 [155] [156] [157]
-<pictures/picturefile_7_4.png, id=1460, 216.81pt x 97.86563pt>
+<pictures/picturefile_7_4.png, id=1461, 216.81pt x 97.86563pt>
 File: pictures/picturefile_7_4.png Graphic file (type png)
 
 <use pictures/picturefile_7_4.png>
@@ -1986,7 +2073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
-[160] <pictures/picturefile_7_5.png, id=1476, 209.28188pt x 140.02313pt>
+[160] <pictures/picturefile_7_5.png, id=1477, 209.28188pt x 140.02313pt>
 File: pictures/picturefile_7_5.png Graphic file (type png)
 
 <use pictures/picturefile_7_5.png>
@@ -2045,16 +2132,16 @@ Overfull \hbox (12.40596pt too wide) in paragraph at lines 748--749
 
 
 ]
-<pictures/picturefile_8_1.png, id=1533, 161.10187pt x 137.7647pt>
+<pictures/picturefile_8_1.png, id=1534, 161.10187pt x 137.7647pt>
 File: pictures/picturefile_8_1.png Graphic file (type png)
 
 <use pictures/picturefile_8_1.png>
-<pictures/picturefile_8_2.png, id=1534, 161.10187pt x 137.7647pt>
+<pictures/picturefile_8_2.png, id=1535, 161.10187pt x 137.7647pt>
 File: pictures/picturefile_8_2.png Graphic file (type png)
 
 <use pictures/picturefile_8_2.png> [172 <./pictures/picturefile_8_1.png (PNG co
 py)> <./pictures/picturefile_8_2.png (PNG copy)>]
-<pictures/picturefile_8_3.png, id=1540, 266.49562pt x 146.79843pt>
+<pictures/picturefile_8_3.png, id=1541, 266.49562pt x 146.79843pt>
 File: pictures/picturefile_8_3.png Graphic file (type png)
 
 <use pictures/picturefile_8_3.png> [173 <./pictures/picturefile_8_3.png (PNG co
@@ -2097,25 +2184,25 @@ sy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g$\T2A/cmr/m/it/10 . То-гда спра-
 
 
 Overfull \hbox (8.80923pt too wide) in paragraph at lines 205--206
-[]\T2A/cmr/m/n/10 При усло-ви-ях $\OT1/cmr/m/n/10 1[]$ \T2A/cmr/m/n/10 с уче-то
-м свой-ства ([][]8.3[][]) по-лу-ча-ем оцен-ку $\OT1/cmr/m/n/10 ^^A\OML/cmm/m/it
-/10 I \OMS/cmsy/m/n/10 ^^U []k\OML/cmm/m/it/10 ^^Nu\OMS/cmsy/m/n/10 k[] ^^@
+[]\T2A/cmr/m/n/10 При усло-ви-ях $\PU/cmr/m/n/10 1[]$ \T2A/cmr/m/n/10 с уче-том
+ свой-ства ([][]8.3[][]) по-лу-ча-ем оцен-ку $\PU/cmr/m/n/10 ^^A\OML/cmm/m/it/1
+0 I \OMS/cmsy/m/n/10 ^^U []k\OML/cmm/m/it/10 ^^Nu\OMS/cmsy/m/n/10 k[] ^^@
  []
 
 [179] [180] [181] [182] [183]
 Overfull \hbox (14.12741pt too wide) in paragraph at lines 307--308
 []\T2A/cmr/bx/n/10 Уравнение Эй-ле-ра. \T2A/cmr/m/n/10 Поль-зу-ясь диф-фе-рен-ц
-и-ру-е-мо-стью функ-ции $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^
-A\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^A\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^A
-\OT1/cmr/m/n/10 )$
+и-ру-е-мо-стью функ-ции $\OML/cmm/m/it/10 f\PU/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^A
+\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^A\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^A\
+PU/cmr/m/n/10 )$
  []
 
 
 Overfull \hbox (12.47963pt too wide) in paragraph at lines 307--308
-\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I\OT1/cmr/m/n/10 )$\T2A/cmr
-/m/n/10 .При этом сам функ-ци-о-нал бу-дем рас-смат-ри-вать в про-стран-стве $\
-OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$\T2A
-/cmr/m/n/10 .
+\OML/cmm/m/it/10 N\PU/cmr/m/n/10 (\OML/cmm/m/it/10 I\PU/cmr/m/n/10 )$\T2A/cmr/m
+/n/10 .При этом сам функ-ци-о-нал бу-дем рас-смат-ри-вать в про-стран-стве $\OM
+L/cmm/m/it/10 C[]\PU/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\PU/cmr/m/n/10 ]$\T2A/cmr
+/m/n/10 .
  []
 
 [184]
@@ -2128,24 +2215,24 @@ A/cmr/m/it/10 урав-не-ни-ем Эй-ле-ра про-
 Overfull \hbox (13.49815pt too wide) in paragraph at lines 391--392
 \T2A/cmr/m/n/10 лен-но-го на глад-ких функ-ци-ях квад-ра-тич-но-го функ-ци-о-на
 -ла $\OML/cmm/m/it/10 I\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OMS/cmsy/m/n/10 g  
-\OT1/cmr/m/n/10 =  [](\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1
-/cmr/m/n/10 )\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 +
+\PU/cmr/m/n/10 =  [](\OML/cmm/m/it/10 p\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cm
+r/m/n/10 )\OML/cmm/m/it/10 u[] \PU/cmr/m/n/10 +
  []
 
 [187] [188]
 Overfull \hbox (31.57054pt too wide) in paragraph at lines 435--438
 \T2A/cmr/m/it/10 (мак-си-мум), то при всех $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10
- 2 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$ \T2A/cmr/m/it/10 вы
--пол-не-но нера-вен-ство $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- x; u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; u
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U
+ 2 \PU/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\PU/cmr/m/n/10 ]$ \T2A/cmr/m/it/10 вы-п
+ол-не-но нера-вен-ство $\OML/cmm/m/it/10 f[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x;
+ u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )\OML/cmm/m/it/10 ; u[]\PU
+/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^^U
  []
 
 
 Overfull \hbox (3.39241pt too wide) in paragraph at lines 440--442
-[]$\OT1/cmr/m/n/10 2[]$\T2A/cmr/m/it/10 . Ес-ли функ-ция $\OML/cmm/m/it/10 u \O
-T1/cmr/m/n/10 = \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr
-/m/n/10 )$ \T2A/cmr/m/it/10 яв-ля-ет-ся ста-ци-о-нар-ным эле-мен-том функ-
+[]$\PU/cmr/m/n/10 2[]$\T2A/cmr/m/it/10 . Ес-ли функ-ция $\OML/cmm/m/it/10 u \PU
+/cmr/m/n/10 = \OML/cmm/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n
+/10 )$ \T2A/cmr/m/it/10 яв-ля-ет-ся ста-ци-о-нар-ным эле-мен-том функ-
  []
 
 
@@ -2158,17 +2245,17 @@ n/10 f\OML/cmm/m/it/10 u[]; ^^Nu\OMS/cmsy/m/n/10 g \OML/cmm/m/it/10 <
 [189]
 Overfull \hbox (0.64244pt too wide) in paragraph at lines 461--462
 []\T2A/cmr/bx/n/10 Задача на экс-тре-мум функ-ци-о-на-ла $\OML/cmm/m/it/10 I\OM
-S/cmsy/m/n/10 f\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/
-n/10 )\OMS/cmsy/m/n/10 g$\T2A/cmr/bx/n/10 , за-ви-ся-ще-го от про-
+S/cmsy/m/n/10 f\OML/cmm/m/it/10 u\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/
+10 )\OMS/cmsy/m/n/10 g$\T2A/cmr/bx/n/10 , за-ви-ся-ще-го от про-
  []
 
 [190]
 Overfull \hbox (15.78813pt too wide) in paragraph at lines 492--494
 []\T2A/cmr/bx/n/10 пЁЏпЁЏпЁЏпЁЏпЁЏпЁЏпЁЏ 8.7. \T2A/cmr/m/it/10 Ес-ли на-бор фун
-к-ций $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )
-$\T2A/cmr/m/it/10 , $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
-1/cmr/m/n/10 )$\T2A/cmr/m/it/10 ,$[]$, $\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2
+к-ций $\OML/cmm/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )$\
+T2A/cmr/m/it/10 , $\OML/cmm/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cm
+r/m/n/10 )$\T2A/cmr/m/it/10 ,$[]$, $\OML/cmm/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cm
+m/m/it/10 x\PU/cmr/m/n/10 ) \OMS/cmsy/m/n/10 2
  []
 
 [191] [192]
@@ -2191,18 +2278,18 @@ Overfull \hbox (19.0274pt too wide) in paragraph at lines 686--688
 
 
 Overfull \hbox (5.8358pt too wide) in paragraph at lines 692--694
-\T2A/cmr/m/n/10 где про-из-воль-ные чис-ла $\OML/cmm/m/it/10 ^^Ui\OT1/cmr/m/n/1
-0 (\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\O
-ML/cmm/m/it/10 ; [] ; m\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 на-зы-ва-ют мно-жи-те
--ля-ми Лагран-
+\T2A/cmr/m/n/10 где про-из-воль-ные чис-ла $\OML/cmm/m/it/10 ^^Ui\PU/cmr/m/n/10
+ (\OML/cmm/m/it/10 i \PU/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \PU/cmr/m/n/10 2\OML/
+cmm/m/it/10 ; [] ; m\PU/cmr/m/n/10 )$ \T2A/cmr/m/n/10 на-зы-ва-ют мно-жи-те-ля-
+ми Лагран-
  []
 
 
 Overfull \hbox (0.16045pt too wide) in paragraph at lines 703--704
 []\T2A/cmr/m/n/10 При при-ме-не-нии тео-ре-мы 8.10 ис-ко-мые функ-ции $\OML/cmm
-/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/1
-0 ; u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [
-] ; u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$
+/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )\OML/cmm/m/it/10 
+; u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] ; 
+u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 x\PU/cmr/m/n/10 )$
  []
 
 [198] [199]
@@ -2212,17 +2299,17 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 772.
 [200] [201]
 Overfull \hbox (3.32619pt too wide) in paragraph at lines 804--805
 []\T2A/cmr/m/n/10 Вопрос о схо-ди-мо-сти ми-ни-ми-зи-ру-ю-щей по-сле-до-ва-тель
--но-сти $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; n \OT1/cmr/m/n/10 =
+-но-сти $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 u[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10
+ x\PU/cmr/m/n/10 )\OML/cmm/m/it/10 ; n \PU/cmr/m/n/10 =
  []
 
 [202]
 Overfull \hbox (3.01103pt too wide) in paragraph at lines 818--820
 \T2A/cmr/m/it/10 стран-стве функ-ций $\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 2 \OM
-L/cmm/m/it/10 C[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$\T2A/c
-mr/m/n/10 , удо-вле-тво-ря-ю-щих усло-ви-ям $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 
-(\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 b\OT1/cmr/m/n/10 ) =
+L/cmm/m/it/10 C[]\PU/cmr/m/n/10 [\OML/cmm/m/it/10 a; b\PU/cmr/m/n/10 ]$\T2A/cmr
+/m/n/10 , удо-вле-тво-ря-ю-щих усло-ви-ям $\OML/cmm/m/it/10 f\PU/cmr/m/n/10 (\O
+ML/cmm/m/it/10 a\PU/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\PU/cmr/m/n/10 (\OML/cmm/m
+/it/10 b\PU/cmr/m/n/10 ) =
  []
 
 [203] [204]
@@ -2234,9 +2321,9 @@ Overfull \hbox (2.36934pt too wide) in paragraph at lines 912--913
 [205] [206]
 Overfull \hbox (5.56319pt too wide) in paragraph at lines 945--948
 \T2A/cmr/m/n/10 ли-ней-ная обо-лоч-ка ко-то-рой со-дер-жит функ-ции $\OML/cmm/m
-/it/10 f[]\OT1/cmr/m/n/10 ([])(\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = 1\OML/cmm/m
-/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; [] ; n\OT1/cmr/m/n/10 )$\T2A/cmr/m
-/n/10 . Функ-
+/it/10 f[]\PU/cmr/m/n/10 ([])(\OML/cmm/m/it/10 k \PU/cmr/m/n/10 = 1\OML/cmm/m/i
+t/10 ; \PU/cmr/m/n/10 2\OML/cmm/m/it/10 ; [] ; n\PU/cmr/m/n/10 )$\T2A/cmr/m/n/1
+0 . Функ-
  []
 
 [207]
@@ -2430,18 +2517,18 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 114.
 Missing character: There is no п in font cmr10!
 Missing character: There is no р in font cmr10!
 Missing character: There is no и in font cmr10!
-[219] [220] <pictures/picturefile_9_1.jpg, id=1965, 283.824pt x 456.9435pt>
+[219] [220] <pictures/picturefile_9_1.jpg, id=1966, 283.824pt x 456.9435pt>
 File: pictures/picturefile_9_1.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_1.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/picturefile_9_2.jpg, id=1966, 227.6505pt x 113.9895pt>
+<pictures/picturefile_9_2.jpg, id=1967, 227.6505pt x 113.9895pt>
 File: pictures/picturefile_9_2.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_2.jpg> [221]
-<pictures/picturefile_9_3.jpg, id=1971, 227.6505pt x 102.492pt>
+<pictures/picturefile_9_3.jpg, id=1972, 227.6505pt x 102.492pt>
 File: pictures/picturefile_9_3.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_3.jpg>
@@ -2467,14 +2554,6 @@ Missing character: There is no с in font cmr10!
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 198.
 
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 198.
-
-Missing character: There is no м in font cmr10!
-Missing character: There is no с in font cmr10!
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 198.
-
 Missing character: There is no м in font cmr10!
 
 LaTeX Warning: Command \cyrm invalid in math mode on input line 198.
@@ -2528,7 +2607,7 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 198.
 
 Missing character: There is no и in font cmr10!
 Missing character: There is no и in font cmr10!
-<pictures/picturefile_9_4.jpg, id=1978, 483.552pt x 323.5725pt>
+<pictures/picturefile_9_4.jpg, id=1979, 483.552pt x 323.5725pt>
 File: pictures/picturefile_9_4.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_4.jpg> [223 <./pictures/picturefile_9_3.jpg> <./pic
@@ -2569,11 +2648,11 @@ LaTeX Warning: Command \cyrs invalid in math mode on input line 220.
 Missing character: There is no К in font cmr10!
 Missing character: There is no м in font cmr10!
 Missing character: There is no с in font cmr10!
-<pictures/picturefile_9_5.jpg, id=1986, 219.1095pt x 159.3225pt>
+<pictures/picturefile_9_5.jpg, id=1987, 219.1095pt x 159.3225pt>
 File: pictures/picturefile_9_5.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_5.jpg>
-<pictures/picturefile_9_6.jpg, id=1987, 221.0805pt x 159.3225pt>
+<pictures/picturefile_9_6.jpg, id=1988, 221.0805pt x 159.3225pt>
 File: pictures/picturefile_9_6.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_6.jpg>
@@ -2629,7 +2708,7 @@ Missing character: There is no т in font cmr10!
 Missing character: There is no м in font cmr10!
 Missing character: There is no К in font cmr10!
 [224 <./pictures/picturefile_9_5.jpg>]
-<pictures/picturefile_9_7.jpg, id=1993, 469.4265pt x 277.5825pt>
+<pictures/picturefile_9_7.jpg, id=1994, 469.4265pt x 277.5825pt>
 File: pictures/picturefile_9_7.jpg Graphic file (type jpg)
 
 <use pictures/picturefile_9_7.jpg>
@@ -2651,8 +2730,8 @@ Missing character: There is no т in font cmr10!
 [225 <./pictures/picturefile_9_6.jpg>]
 Underfull \hbox (badness 5374) in paragraph at lines 268--269
 []\T2A/cmr/bx/n/10 Выводы.\T2A/cmr/m/n/10 Регулярность ко-неч-но-мер-ной ап-про
-к-си-ма-ции $\OML/cmm/m/it/10 Z[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/
-n/10 )$ \T2A/cmr/m/n/10 по
+к-си-ма-ции $\OML/cmm/m/it/10 Z[]\PU/cmr/m/n/10 (\OML/cmm/m/it/10 n\PU/cmr/m/n/
+10 )$ \T2A/cmr/m/n/10 по
  []
 
 [226 <./pictures/picturefile_9_7.jpg>]) [227]
@@ -2671,62 +2750,67 @@ n/10 )$ \T2A/cmr/m/n/10 по
 ] (./main.aux (./title.aux) (./intro.aux)
 (./chapter_1.aux) (./chapter_2.aux) (./chapter_3.aux) (./chapter_4.aux)
 (./chapter_5.aux) (./chapter_6.aux) (./chapter_7.aux) (./chapter_8.aux)
-(./addition.aux) (./literature.aux) (./the_end.aux)) )
+(./addition.aux) (./literature.aux) (./the_end.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
 (\end occurred inside a group at level 2)
 
 ### simple group (level 2) entered at line 397 ({)
 ### simple group (level 1) entered at line 367 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11822 strings out of 493848
- 161672 string characters out of 3152208
- 313528 words of memory out of 3000000
- 14004 multiletter control sequences out of 15000+200000
- 35697 words of font info for 84 fonts, out of 3000000 for 9000
+ 12220 strings out of 493848
+ 168028 string characters out of 3152208
+ 315892 words of memory out of 3000000
+ 14387 multiletter control sequences out of 15000+200000
+ 37834 words of font info for 91 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 36i,21n,43p,2803b,775s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,21n,43p,2803b,779s stack positions out of 5000i,500n,10000p,200000b,50000s
 {c:/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
-2a.enc}<c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c
-:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive
-/2009/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2009
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2009/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2009/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2009/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/t
-exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/200
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2009/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2009/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
-c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
-e/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2009/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2009/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-<c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/
-texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb><c:/texlive/20
-09/texmf-dist/fonts/type1/public/cm-super/sfbi0900.pfb><c:/texlive/2009/texmf-d
-ist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2009/texmf-dist/fonts/
-type1/public/cm-super/sfbx0800.pfb><c:/texlive/2009/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx1000.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-supe
-r/sfbx1200.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm0600
-.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/t
-exlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/200
-9/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2009/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2009/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1200.pfb><c:/texlive/2009/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1440.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super
-/sfti0600.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0800.
-pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/te
-xlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (232 pages, 2816251 bytes).
+2a.enc}{c:/texlive/2009/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c
+:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive
+/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2009/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2009/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2009/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2009/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/
+texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/20
+09/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2009/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2009/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2009/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texliv
+e/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2009/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2009/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2009/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy9.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texli
+ve/2009/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2
+009/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb><c:/texlive/2009/texmf-
+dist/fonts/type1/public/cm-super/sfbi0900.pfb><c:/texlive/2009/texmf-dist/fonts
+/type1/public/cm-super/sfbi1000.pfb><c:/texlive/2009/texmf-dist/fonts/type1/pub
+lic/cm-super/sfbx0800.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfbx120
+0.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/
+texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/20
+09/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2009/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2009/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb><c:/texlive/2009/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1440.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0600
+.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb><c:/t
+exlive/2009/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/200
+9/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on main.pdf (232 pages, 2816692 bytes).
 PDF statistics:
- 2345 PDF objects out of 2487 (max. 8388607)
+ 2348 PDF objects out of 2487 (max. 8388607)
  697 named destinations out of 1000 (max. 500000)
  757 words of extra memory for PDF output out of 10000 (max. 10000000)
 
